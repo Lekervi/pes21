@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PES 2021 | Ultimate Competition</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        :root {
+            --fs-bg-main: #0b1621;
+            --fs-bg-panel: rgba(17, 33, 48, 0.75);
+            --fs-bg-header: rgba(7, 14, 21, 0.85);
+            --fs-border: rgba(28, 46, 62, 0.5);
+            
+            --fs-text-main: #ffffff;
+            --fs-text-muted: #8a9fac;
+            --fs-accent-red: #ff1e00;
+            --fs-team1: #e23636;
+            --fs-team2: #ffb822;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--fs-text-main);
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            background-color: var(--fs-bg-main);
+            background-image: url('bg.jpeg.jpg');
+            background-size: cover; 
+            background-position: center top; 
+            background-repeat: no-repeat; 
+            background-attachment: fixed;
+        }
+
+        header, .scoreboard, .panel, .stat-box, .tabs, .scoreboard-header, .stats-summary-box, .custom-box {
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        header {
+            background-color: var(--fs-bg-header);
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 0 40px;
+            height: 60px;
+            border-bottom: 1px solid var(--fs-border);
+            position: relative;
+        }
+        
+        .header-logo {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 1.6em;
+            font-weight: 800;
+            letter-spacing: 1px;
+            background: linear-gradient(90deg, var(--fs-team1), var(--fs-team2)); 
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            color: transparent; 
+            white-space: nowrap;
+        }
+
+        .header-action-block { display: flex; flex-direction: column; align-items: center; gap: 3px; }
+        .header-btn {
+            background-color: transparent; color: var(--fs-text-main); border: 1px solid var(--fs-border);
+            padding: 6px 15px; border-radius: 3px; cursor: pointer; font-size: 0.85em; font-weight: 600;
+            transition: background 0.2s;
+        }
+        .header-btn:hover { background-color: var(--fs-bg-panel); }
+        .version-label { font-size: 0.68em; color: var(--fs-text-muted); font-weight: 700; letter-spacing: 0.5px; }
+
+        .container { max-width: 1100px; margin: 30px auto; padding: 0 20px; }
+
+        .scoreboard {
+            background-color: var(--fs-bg-panel); border: 1px solid var(--fs-border);
+            border-radius: 4px; margin-bottom: 20px; display: flex; flex-direction: column;
+        }
+        .scoreboard-header {
+            background-color: rgba(13, 26, 39, 0.85); padding: 10px 20px; font-size: 0.85em;
+            color: var(--fs-text-muted); border-bottom: 1px solid var(--fs-border);
+            border-radius: 4px 4px 0 0; display: flex; align-items: center; font-weight: 600; gap: 10px;
+        }
+        .scoreboard-header::before { content: '📌'; font-size: 1.2em; }
+        .scoreboard-content { display: flex; justify-content: space-around; align-items: center; padding: 30px 20px 20px 20px; }
+        
+        .score-box { text-align: center; width: 30%; position: relative;}
+        .score-box h2 { margin: 0; font-size: 1.1em; font-weight: 600; }
+        .score-box .score { font-size: 4.5em; font-weight: 700; margin: 10px 0; }
+        
+        .wdl-stats { font-size: 0.85em; font-weight: 700; color: var(--fs-text-muted); background: rgba(0,0,0,0.3); padding: 5px 10px; border-radius: 4px; display: inline-block;}
+        .wdl-w { color: #28a745; } .wdl-d { color: #6c757d; } .wdl-l { color: #dc3545; }
+        
+        /* БЛОК ДЛЯ СТАТИСТИКИ ДОМА/ВЫЕЗД */
+        .ha-stats { font-size: 0.75em; color: var(--fs-text-muted); margin-top: 8px; font-weight: 600; }
+        .ha-stats span { color: #fff; font-weight: 700; }
+
+        .center-stats { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+        .stat-box {
+            display: flex; flex-direction: column; align-items: center;
+            background-color: var(--fs-bg-header); padding: 10px 20px; border-radius: 4px; 
+            border: 1px solid var(--fs-border); min-width: 140px;
+        }
+        .stat-label { font-size: 0.75em; color: var(--fs-text-muted); margin-bottom: 4px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; }
+        .stat-score { font-size: 1.8em; font-weight: 700; color: var(--fs-text-main); }
+
+        .dashboard-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .dashboard-grid-half { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 20px; }
+        .dashboard-full { width: 100%; margin-bottom: 20px; }
+        
+        .panel { background-color: var(--fs-bg-panel); border: 1px solid var(--fs-border); border-radius: 4px; display: flex; flex-direction: column; }
+        .panel-header { padding: 15px 20px; border-bottom: 1px solid var(--fs-border); font-weight: 700; font-size: 0.9em; color: var(--fs-text-muted); text-transform: uppercase; }
+        .panel-body { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; }
+
+        .tabs { display: flex; gap: 5px; margin-bottom: 15px; background-color: rgba(11, 22, 33, 0.5); padding: 5px; border-radius: 4px; border: 1px solid var(--fs-border); overflow-x: auto; flex-wrap: wrap;}
+        .tabs button { flex: 1 1 auto; background-color: transparent; color: var(--fs-text-muted); border: none; padding: 8px 10px; cursor: pointer; font-size: 0.78em; font-weight: 700; border-radius: 3px; transition: all 0.2s; white-space: nowrap; }
+        .tabs button:hover { color: var(--fs-text-main); }
+        .tabs button.active { background-color: var(--fs-bg-panel); color: var(--fs-text-main); font-weight: 700; box-shadow: 0 1px 3px rgba(0,0,0,0.5); }
+
+        .stats-summary-box { background-color: rgba(7, 14, 21, 0.5); border: 1px solid var(--fs-border); border-radius: 4px; padding: 12px 15px; margin-bottom: 15px; font-size: 0.85em; line-height: 1.5; }
+        .summary-row { display: flex; justify-content: space-between; margin-bottom: 6px; }
+        .summary-row:last-child { margin-bottom: 0; }
+        .team-summary-name { font-weight: 700; }
+        .team-f-text { color: var(--fs-team1); }
+        .team-e-text { color: var(--fs-team2); }
+
+        .chart-container { position: relative; margin: auto; height: 280px; width: 100%; }
+
+        .list-style-clean { list-style: none; padding: 0; margin: 0; }
+        .list-style-clean li { display: flex; justify-content: space-between; padding: 10px 10px; border-bottom: 1px solid var(--fs-border); font-size: 0.85em; }
+        .list-style-clean li:last-child { border-bottom: none; }
+        .list-style-clean li span { color: var(--fs-text-muted); font-weight: 600; }
+        .list-style-clean li strong { color: var(--fs-text-main); font-weight: 700; text-align: right; }
+
+        .sub-text { font-size: 0.75em; color: var(--fs-text-muted); display: block; margin-top: 2px;}
+
+        .custom-box { display: flex; justify-content: space-between; align-items: center; background-color: rgba(7, 14, 21, 0.5); padding: 15px 20px; border-radius: 4px; margin-bottom: 10px; border: 1px solid var(--fs-border); }
+        .custom-info { width: 60%; }
+        .custom-title { font-size: 0.85em; color: var(--fs-text-main); font-weight: 700; text-transform: uppercase; margin-bottom: 5px; }
+        .custom-desc { font-size: 0.75em; color: var(--fs-text-muted); line-height: 1.4; }
+        .custom-stats { width: 35%; border-left: 1px solid var(--fs-border); padding-left: 15px; display: flex; flex-direction: column; gap: 8px;}
+        .custom-row { display: flex; justify-content: space-between; font-size: 0.85em; font-weight: 600;}
+        .custom-row span:first-child { color: var(--fs-text-muted); }
+
+        .best-matches-cols { display: flex; gap: 15px; }
+        .best-matches-col { flex: 1; }
+        .bm-title { text-align: center; font-size: 0.8em; font-weight: 700; color: var(--fs-text-muted); margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px solid var(--fs-border);}
+
+        @media (max-width: 768px) {
+            header { flex-direction: column; justify-content: center; height: auto; padding: 15px; gap: 15px; }
+            .header-logo { position: relative; left: 0; transform: none; font-size: 1.4em; }
+            .scoreboard-content { flex-direction: column; gap: 25px; padding: 20px 10px; }
+            .score-box { width: 100%; }
+            .center-stats { flex-direction: row; flex-wrap: wrap; justify-content: center; width: 100%; gap: 10px; }
+            .stat-box { min-width: 45%; flex: 1; }
+            .dashboard-grid, .dashboard-grid-half { grid-template-columns: 1fr; }
+            .summary-row { flex-direction: column; margin-bottom: 12px; text-align: center; }
+            .custom-box { flex-direction: column; align-items: flex-start; gap: 15px; }
+            .custom-info, .custom-stats { width: 100%; }
+            .custom-stats { border-left: none; border-top: 1px solid var(--fs-border); padding-left: 0; padding-top: 15px; }
+            .list-style-clean li { flex-direction: column; align-items: center; gap: 5px; text-align: center; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-logo">PES 2021 Ultimate Competition</div>
+        <div class="header-action-block">
+            <button class="header-btn" onclick="refreshVersion()">ОБНОВИТЬ ДАННЫЕ</button>
+            <div class="version-label" id="versionLabel">v1.0.0</div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="scoreboard">
+            <div class="scoreboard-header">ИСТОРИЯ ОЧНЫХ ВСТРЕЧ: ГЕРМАНИЯ - ИСПАНИЯ</div>
+            <div class="scoreboard-content">
+                <div class="score-box">
+                    <h2>Фарид (Германия)</h2>
+                    <div class="score" id="winsFarid">0</div>
+                    <div class="wdl-stats" id="wdlFarid">П: 0% | Н: 0% | П: 0%</div>
+                    <div class="ha-stats" id="haFarid">Дома: <span>0%</span> | Выезд: <span>0%</span></div>
+                </div>
+                
+                <div class="center-stats">
+                    <div class="stat-box">
+                        <span class="stat-label">ВСЕГО МАТЧЕЙ</span>
+                        <span class="stat-score" id="totalMatchesCount">0</span>
+                    </div>
+                    <div class="stat-box">
+                        <span class="stat-label">НИЧЬИ</span>
+                        <span class="stat-score" id="drawsCount">0</span>
+                    </div>
+                </div>
+
+                <div class="score-box">
+                    <h2>Эмиль (Испания)</h2>
+                    <div class="score" id="winsEmil">0</div>
+                    <div class="wdl-stats" id="wdlEmil">П: 0% | Н: 0% | П: 0%</div>
+                    <div class="ha-stats" id="haEmil">Дома: <span>0%</span> | Выезд: <span>0%</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-grid">
+            <div class="panel">
+                <div class="panel-header">СТАТИСТИКА КОМАНД ПО ПАРАМЕТРАМ</div>
+                <div class="panel-body">
+                    <div class="tabs">
+                        <button class="active" onclick="updateChart('possession', event)">ВЛАДЕНИЕ</button>
+                        <button onclick="updateChart('shots', event)">УДАРЫ</button>
+                        <button onclick="updateChart('pass_accuracy', event)">ПАСЫ</button>
+                        <button onclick="updateChart('crosses', event)">НАВЕСЫ</button>
+                        <button onclick="updateChart('interceptions', event)">ПЕРЕХВАТЫ</button>
+                        <button onclick="updateChart('goals', event)">ГОЛЫ</button>
+                        <button onclick="updateChart('tackles', event)">ОТБОРЫ</button>
+                    </div>
+                    <div class="stats-summary-box" id="statsSummaryBox">Загрузка аналитики...</div>
+                    <div class="chart-container"><canvas id="statsChart"></canvas></div>
+                </div>
+            </div>
+            
+            <div class="panel">
+                <div class="panel-header">ТОП-10 БОМБАРДИРОВ</div>
+                <div class="panel-body" style="padding: 10px;">
+                    <ul class="list-style-clean" id="topScorers">
+                        <li style="padding-left: 20px;">Загрузка данных...</li>
+                    </ul>
+                    <div style="margin-top: 15px; padding-top: 15px; border-top: 1px solid var(--fs-border);">
+                        <ul class="list-style-clean">
+                            <li><span>Автоголы Фарида:</span> <strong id="statOgF">0</strong></li>
+                            <li><span>Автоголы Эмиля:</span> <strong id="statOgE">0</strong></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-grid-half">
+            <div class="panel">
+                <div class="panel-header">ЛУЧШИЕ МАТЧИ (ТОП РАЗГРОМОВ)</div>
+                <div class="panel-body" style="padding: 15px;">
+                    <div class="best-matches-cols">
+                        <div class="best-matches-col">
+                            <div class="bm-title team-f-text">ФАРИД</div>
+                            <ul class="list-style-clean" id="bestFarid"></ul>
+                        </div>
+                        <div class="best-matches-col" style="border-left: 1px solid var(--fs-border); padding-left: 15px;">
+                            <div class="bm-title team-e-text">ЭМИЛЬ</div>
+                            <ul class="list-style-clean" id="bestEmil"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-header">КУРЬЁЗНЫЕ И АНОМАЛЬНЫЕ МАТЧИ</div>
+                <div class="panel-body" style="padding: 15px;">
+                    <ul class="list-style-clean" id="curiousMatches">
+                        <li>Загрузка...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="dashboard-grid">
+            <div class="panel">
+                <div class="panel-header">ЗАЛ РЕКОРДОВ (АБСОЛЮТНЫЕ ПОКАЗАТЕЛИ)</div>
+                <div class="panel-body" style="padding: 10px;">
+                    <ul class="list-style-clean" id="hallOfRecords">
+                        <li style="padding-left: 20px;">Вычисление рекордов...</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="panel">
+                <div class="panel-header">ПУЛЕМЁТНАЯ ОЧЕРЕДЬ (СЕРИИ ГОЛОВ)</div>
+                <div class="panel-body" style="padding: 10px;">
+                    <ul class="list-style-clean" id="machineGun">
+                        <li style="padding-left: 20px;">Загрузка данных...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel dashboard-full">
+            <div class="panel-header">АНАЛИТИКА ГОЛОВ (ПСИХОЛОГИЯ И ХОД ИГРЫ)</div>
+            <div class="panel-body">
+                <div class="custom-box">
+                    <div class="custom-info">
+                        <div class="custom-title">Первая кровь</div>
+                        <div class="custom-desc">Кто чаще забивает первый гол в матче, навязывая свою игру.</div>
+                    </div>
+                    <div class="custom-stats" id="statFirstBlood"></div>
+                </div>
+                <div class="custom-box">
+                    <div class="custom-info">
+                        <div class="custom-title">Блицкриг (до 15 мин)</div>
+                        <div class="custom-desc">Быстрые голы в самом начале матча, рушащие тактику соперника.</div>
+                    </div>
+                    <div class="custom-stats" id="statEarlyGoals"></div>
+                </div>
+                <div class="custom-box">
+                    <div class="custom-info">
+                        <div class="custom-title">Ферги Тайм (после 85 мин)</div>
+                        <div class="custom-desc">Умение сохранять железную концентрацию на последних минутах встречи.</div>
+                    </div>
+                    <div class="custom-stats" id="statLateGoals"></div>
+                </div>
+                <div class="custom-box">
+                    <div class="custom-info">
+                        <div class="custom-title">Мастера Камбэков</div>
+                        <div class="custom-desc">Матчи, где игрок героически отыграл отставание в 2 и более мячей.</div>
+                    </div>
+                    <div class="custom-stats" id="statComebacks"></div>
+                </div>
+                <div class="custom-box" style="margin-bottom: 0;">
+                    <div class="custom-info">
+                        <div class="custom-title">Чокеры (Упущенное преимущество)</div>
+                        <div class="custom-desc">Матчи, в которых игрок вёл с преимуществом в 2+ мяча, но упустил победу.</div>
+                    </div>
+                    <div class="custom-stats" id="statChokes"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let matchHistory = [];
+        let statsChart = null;
+
+        initVersion();
+
+        fetch('history.json?nocache=' + new Date().getTime())
+            .then(response => {
+                if (!response.ok) throw new Error("Файл не найден");
+                return response.json();
+            })
+            .then(data => {
+                matchHistory = data;
+                processData();
+            })
+            .catch(error => {
+                console.error("Ошибка загрузки:", error);
+            });
+
+        function initVersion() {
+            let currentVer = localStorage.getItem('pes_project_version');
+            if (!currentVer) { currentVer = "1.0.0"; localStorage.setItem('pes_project_version', currentVer); }
+            document.getElementById('versionLabel').innerText = "v" + currentVer;
+        }
+
+        function refreshVersion() {
+            let currentVer = localStorage.getItem('pes_project_version') || "1.0.0";
+            let parts = currentVer.split('.');
+            let patch = parseInt(parts[2]) + 1;
+            let minor = parseInt(parts[1]);
+            let major = parseInt(parts[0]);
+            if (patch >= 10) { patch = 0; minor += 1; }
+            if (minor >= 10) { minor = 0; major += 1; }
+            localStorage.setItem('pes_project_version', `${major}.${minor}.${patch}`);
+            location.reload();
+        }
+
+        function parseMinute(minStr) {
+            if (typeof minStr === 'number') return minStr;
+            if (!minStr) return 0;
+            let m = String(minStr).replace("'", "").trim();
+            if (m.includes("+")) {
+                let parts = m.split("+");
+                return parseInt(parts[0]) + parseInt(parts[1]);
+            }
+            return parseInt(m) || 0;
+        }
+
+        function processData() {
+            if (matchHistory.length === 0) return;
+
+            let totalM = matchHistory.length;
+            let winsF = 0, winsE = 0, draws = 0;
+            let scorers = {};
+            let ogF = 0, ogE = 0;
+
+            let homeGamesF = 0, homeWinsF = 0;
+            let awayGamesF = 0, awayWinsF = 0;
+            let homeGamesE = 0, homeWinsE = 0;
+            let awayGamesE = 0, awayWinsE = 0;
+
+            let firstBloodF = 0, firstBloodE = 0;
+            let earlyF = 0, earlyE = 0, lateF = 0, lateE = 0;
+            let comebacksF = 0, comebacksE = 0;
+            let chokesF = 0, chokesE = 0;
+
+            let fastestStreaks = [];
+
+            let curious = {
+                otskok: { diff: -99, text: "Пока нет" },
+                sleep: { shots: 999, text: "Пока нет" },
+                badGk: { goals: -1, text: "Пока нет" },
+                runGun: { acc: 999, text: "Пока нет" }
+            };
+
+            let bestMatchesF = [];
+            let bestMatchesE = [];
+
+            let rec = {
+                diff: -1, diffText: "Пока нет",
+                totalGoals: -1, totalGoalsText: "Пока нет",
+                poss: -1, possText: "Пока нет",
+                passes: -1, passesText: "Пока нет",
+                saves: -1, savesText: "Пока нет",
+                fouls: -1, foulsText: "Пока нет"
+            };
+
+            matchHistory.forEach(match => {
+                let gF = match.team_1.goals || 0;
+                let gE = match.team_2.goals || 0;
+                
+                if (gF > gE) winsF++;
+                else if (gE > gF) winsE++;
+                else draws++;
+
+                // Считаем Дома / В гостях
+                if (match.team_1.hasOwnProperty('is_home')) {
+                    if (match.team_1.is_home) {
+                        homeGamesF++; if (gF > gE) homeWinsF++;
+                    } else {
+                        awayGamesF++; if (gF > gE) awayWinsF++;
+                    }
+                }
+                if (match.team_2.hasOwnProperty('is_home')) {
+                    if (match.team_2.is_home) {
+                        homeGamesE++; if (gE > gF) homeWinsE++;
+                    } else {
+                        awayGamesE++; if (gE > gF) awayWinsE++;
+                    }
+                }
+
+                if (gF > gE) bestMatchesF.push({score: `${gF}:${gE}`, diff: gF - gE});
+                if (gE > gF) bestMatchesE.push({score: `${gE}:${gF}`, diff: gE - gF});
+
+                let timeline = [];
+                const addGoals = (arr, team, isF) => {
+                    if(!arr) return;
+                    arr.forEach(s => {
+                        let type = s.type || 'normal';
+                        if (type === 'own_goal') {
+                            if (isF) ogF++; else ogE++;
+                        }
+                        
+                        scorers[s.name] = (scorers[s.name] || 0) + 1;
+                        let min = parseMinute(s.minute);
+                        if(min > 0) timeline.push({team: team, player: s.name, min: min});
+                    });
+                };
+                addGoals(match.team_1.scorers, 'f', true);
+                addGoals(match.team_2.scorers, 'e', false);
+                timeline.sort((a,b) => a.min - b.min);
+
+                if (timeline.length > 0) {
+                    timeline[0].team === 'f' ? firstBloodF++ : firstBloodE++;
+                }
+
+                timeline.forEach(g => {
+                    if (g.min <= 15) { g.team === 'f' ? earlyF++ : earlyE++; }
+                    if (g.min >= 85) { g.team === 'f' ? lateF++ : lateE++; }
+                });
+
+                let cF = 0, cE = 0, maxLeadF = 0, maxLeadE = 0;
+                timeline.forEach(g => {
+                    g.team === 'f' ? cF++ : cE++;
+                    let d = cF - cE;
+                    if (d > maxLeadF) maxLeadF = d;
+                    if (-d > maxLeadE) maxLeadE = -d;
+                });
+                
+                if (maxLeadF >= 2 && gF <= gE) { chokesF++; comebacksE++; }
+                if (maxLeadE >= 2 && gE <= gF) { chokesE++; comebacksF++; }
+
+                let pGoals = {};
+                timeline.forEach(g => {
+                    if (!pGoals[g.player]) pGoals[g.player] = [];
+                    pGoals[g.player].push(g.min);
+                });
+                for (let p in pGoals) {
+                    let mins = pGoals[p].sort((a,b)=>a-b);
+                    if (mins.length >= 2) {
+                        for(let i=0; i<mins.length-1; i++) {
+                            fastestStreaks.push({
+                                player: p, gap: mins[i+1]-mins[i], 
+                                text: `${mins[i]}' и ${mins[i+1]}'`
+                            });
+                        }
+                    }
+                }
+
+                let diff = Math.abs(gF - gE);
+                if (diff > rec.diff && diff !== 0) {
+                    rec.diff = diff;
+                    rec.diffText = `${gF > gE ? 'Фарид' : 'Эмиль'} (${gF}:${gE})`;
+                }
+
+                let tGoals = gF + gE;
+                if (tGoals > rec.totalGoals) {
+                    rec.totalGoals = tGoals;
+                    rec.totalGoalsText = `Германия ${gF}:${gE} Испания`;
+                }
+
+                if (match.team_1.stats && match.team_2.stats) {
+                    let s1 = match.team_1.stats, s2 = match.team_2.stats;
+                    
+                    if (s1.possession_pct > rec.poss) { rec.poss = s1.possession_pct; rec.possText = `Фарид (${s1.possession_pct}%)`; }
+                    if (s2.possession_pct > rec.poss) { rec.poss = s2.possession_pct; rec.possText = `Эмиль (${s2.possession_pct}%)`; }
+
+                    if (s1.successful_passes > rec.passes) { rec.passes = s1.successful_passes; rec.passesText = `Фарид (${s1.successful_passes} точн.)`; }
+                    if (s2.successful_passes > rec.passes) { rec.passes = s2.successful_passes; rec.passesText = `Эмиль (${s2.successful_passes} точн.)`; }
+
+                    if (s1.saves > rec.saves) { rec.saves = s1.saves; rec.savesText = `Фарид (${s1.saves} сейвов)`; }
+                    if (s2.saves > rec.saves) { rec.saves = s2.saves; rec.savesText = `Эмиль (${s2.saves} сейвов)`; }
+
+                    let f1 = s1.fouls || 0, f2 = s2.fouls || 0;
+                    if (f1 > rec.fouls) { rec.fouls = f1; rec.foulsText = `Фарид (${f1} фолов)`; }
+                    if (f2 > rec.fouls) { rec.fouls = f2; rec.foulsText = `Эмиль (${f2} фолов)`; }
+
+                    if (gF > gE && s1.possession_pct <= 40 && s1.shots < s2.shots) {
+                        let score = (s2.shots - s1.shots);
+                        if (score > curious.otskok.diff) curious.otskok = { diff: score, text: `Фарид ${gF}:${gE} (Влад: ${s1.possession_pct}%, Удары: ${s1.shots} vs ${s2.shots})` };
+                    }
+                    if (gE > gF && s2.possession_pct <= 40 && s2.shots < s1.shots) {
+                        let score = (s1.shots - s2.shots);
+                        if (score > curious.otskok.diff) curious.otskok = { diff: score, text: `Эмиль ${gE}:${gF} (Влад: ${s2.possession_pct}%, Удары: ${s2.shots} vs ${s1.shots})` };
+                    }
+
+                    let totalSot = s1.shots_on_target + s2.shots_on_target;
+                    if (totalSot < curious.sleep.shots) {
+                        curious.sleep = { shots: totalSot, text: `Ударов в створ на двоих: ${totalSot} (${gF}:${gE})` };
+                    }
+
+                    if (gF >= 4 && s2.saves <= 1 && gF > curious.badGk.goals) curious.badGk = { goals: gF, text: `Испания пропустила ${gF}, сейвов: ${s2.saves}` };
+                    if (gE >= 4 && s1.saves <= 1 && gE > curious.badGk.goals) curious.badGk = { goals: gE, text: `Германия пропустила ${gE}, сейвов: ${s1.saves}` };
+
+                    let acc1 = (s1.successful_passes / s1.total_passes)*100 || 100;
+                    let acc2 = (s2.successful_passes / s2.total_passes)*100 || 100;
+                    if (gF > gE && acc1 < curious.runGun.acc) curious.runGun = { acc: acc1, text: `Фарид выиграл с точностью паса ${acc1.toFixed(0)}%` };
+                    if (gE > gF && acc2 < curious.runGun.acc) curious.runGun = { acc: acc2, text: `Эмиль выиграл с точностью паса ${acc2.toFixed(0)}%` };
+                }
+            });
+
+            // Общие WDL
+            let pctW_F = Math.round((winsF/totalM)*100) || 0;
+            let pctD = Math.round((draws/totalM)*100) || 0;
+            let pctL_F = Math.round((winsE/totalM)*100) || 0;
+
+            document.getElementById('winsFarid').innerText = winsF;
+            document.getElementById('wdlFarid').innerHTML = `<span class="wdl-w">П: ${pctW_F}%</span> | <span class="wdl-d">Н: ${pctD}%</span> | <span class="wdl-l">П: ${pctL_F}%</span>`;
+            
+            document.getElementById('winsEmil').innerText = winsE;
+            document.getElementById('wdlEmil').innerHTML = `<span class="wdl-w">П: ${pctL_F}%</span> | <span class="wdl-d">Н: ${pctD}%</span> | <span class="wdl-l">П: ${pctW_F}%</span>`;
+            
+            // Вывод Дом / Выезд
+            let haPctWF = homeGamesF > 0 ? Math.round((homeWinsF/homeGamesF)*100) : 0;
+            let awPctWF = awayGamesF > 0 ? Math.round((awayWinsF/awayGamesF)*100) : 0;
+            let haPctWE = homeGamesE > 0 ? Math.round((homeWinsE/homeGamesE)*100) : 0;
+            let awPctWE = awayGamesE > 0 ? Math.round((awayWinsE/awayGamesE)*100) : 0;
+
+            document.getElementById('haFarid').innerHTML = `Дома: <span>${haPctWF}%</span> побед | На выезде: <span>${awPctWF}%</span> побед`;
+            document.getElementById('haEmil').innerHTML = `Дома: <span>${haPctWE}%</span> побед | На выезде: <span>${awPctWE}%</span> побед`;
+
+            document.getElementById('drawsCount').innerText = draws;
+            document.getElementById('totalMatchesCount').innerText = totalM;
+
+            document.getElementById('statOgF').innerText = ogF;
+            document.getElementById('statOgE').innerText = ogE;
+
+            let sortedScorers = Object.entries(scorers).sort((a, b) => b[1] - a[1]).slice(0, 10);
+            document.getElementById('topScorers').innerHTML = sortedScorers.map(s => `<li><span>${s[0]}</span> <strong>${s[1]} ⚽</strong></li>`).join('') || "<li>Нет данных</li>";
+
+            bestMatchesF.sort((a,b) => b.diff - a.diff);
+            bestMatchesE.sort((a,b) => b.diff - a.diff);
+            const renderBM = (arr) => arr.slice(0, 10).map((m, idx) => `<li><span>Игра ${idx + 1}</span> <strong>${m.score}</strong></li>`).join('') || "<li>Нет побед</li>";
+            document.getElementById('bestFarid').innerHTML = renderBM(bestMatchesF);
+            document.getElementById('bestEmil').innerHTML = renderBM(bestMatchesE);
+
+            document.getElementById('curiousMatches').innerHTML = `
+                <li><span>Главный отскок <span class="sub-text">Победа при полном доминировании соперника</span></span> <strong>${curious.otskok.text}</strong></li>
+                <li><span>Снотворное (Анти-футбол) <span class="sub-text">Матч с наименьшим числом ударов в створ</span></span> <strong>${curious.sleep.text}</strong></li>
+                <li><span>Дырявые перчатки <span class="sub-text">Разгром при почти нулевом количестве сейвов вратаря</span></span> <strong>${curious.badGk.text}</strong></li>
+                <li><span>Бей-беги <span class="sub-text">Победа с самой худшей точностью передач</span></span> <strong>${curious.runGun.text}</strong></li>
+            `;
+
+            document.getElementById('hallOfRecords').innerHTML = `
+                <li><span>Самая крупная победа (Разница)</span> <strong>${rec.diffText}</strong></li>
+                <li><span>Самый голевой матч (Перестрелка)</span> <strong>${rec.totalGoalsText}</strong></li>
+                <li><span>Тотальная доминация (Владение)</span> <strong>${rec.possText}</strong></li>
+                <li><span>Король Тики-Таки (Пасы)</span> <strong>${rec.passesText}</strong></li>
+                <li><span>Железная стена (Вратарь)</span> <strong>${rec.savesText}</strong></li>
+                <li><span>Главный костолом (Фолы)</span> <strong>${rec.foulsText}</strong></li>
+            `;
+
+            document.getElementById('statFirstBlood').innerHTML = `
+                <div class="custom-row"><span>Фарид:</span> <span>${firstBloodF} раз</span></div>
+                <div class="custom-row"><span>Эмиль:</span> <span>${firstBloodE} раз</span></div>
+            `;
+            document.getElementById('statEarlyGoals').innerHTML = `
+                <div class="custom-row"><span>Фарид:</span> <span>${earlyF} ⚽</span></div>
+                <div class="custom-row"><span>Эмиль:</span> <span>${earlyE} ⚽</span></div>
+            `;
+            document.getElementById('statLateGoals').innerHTML = `
+                <div class="custom-row"><span>Фарид:</span> <span>${lateF} ⚽</span></div>
+                <div class="custom-row"><span>Эмиль:</span> <span>${lateE} ⚽</span></div>
+            `;
+            document.getElementById('statComebacks').innerHTML = `
+                <div class="custom-row"><span>Фарид:</span> <span>${comebacksF} раз</span></div>
+                <div class="custom-row"><span>Эмиль:</span> <span>${comebacksE} раз</span></div>
+            `;
+            document.getElementById('statChokes').innerHTML = `
+                <div class="custom-row"><span>Фарид:</span> <span>${chokesF} раз</span></div>
+                <div class="custom-row"><span>Эмиль:</span> <span>${chokesE} раз</span></div>
+            `;
+
+            fastestStreaks.sort((a,b) => a.gap - b.gap);
+            let seenPlayers = new Set();
+            let uniqueStreaks = [];
+            for (let s of fastestStreaks) {
+                if (!seenPlayers.has(s.player)) { uniqueStreaks.push(s); seenPlayers.add(s.player); }
+                if (uniqueStreaks.length >= 6) break;
+            }
+            document.getElementById('machineGun').innerHTML = uniqueStreaks.map(s => `<li><span>${s.player} <span class="sub-text">Минуты: ${s.text}</span></span> <strong>за ${s.gap} мин.</strong></li>`).join('') || "<li>Нет серий</li>";
+
+            updateChart('possession', null);
+        }
+
+        function calculateMetrics() {
+            let total = matchHistory.length;
+            if (total === 0) return null;
+            let data = {
+                f: { possession: 0, shots: 0, shotsOnTarget: 0, totalPasses: 0, successfulPasses: 0, crosses: 0, interceptions: 0, goals: 0, tackles: 0 },
+                e: { possession: 0, shots: 0, shotsOnTarget: 0, totalPasses: 0, successfulPasses: 0, crosses: 0, interceptions: 0, goals: 0, tackles: 0 }
+            };
+            matchHistory.forEach(m => {
+                data.f.goals += m.team_1.goals || 0; data.e.goals += m.team_2.goals || 0;
+                if (m.team_1.stats) {
+                    data.f.possession += m.team_1.stats.possession_pct || 0; data.f.shots += m.team_1.stats.shots || 0;
+                    data.f.shotsOnTarget += m.team_1.stats.shots_on_target || 0; data.f.totalPasses += m.team_1.stats.total_passes || 0;
+                    data.f.successfulPasses += m.team_1.stats.successful_passes || 0; data.f.interceptions += m.team_1.stats.interceptions || 0;
+                    data.f.tackles += m.team_1.stats.tackles || 0; data.f.crosses += m.team_1.stats.crosses || 0;
+                }
+                if (m.team_2.stats) {
+                    data.e.possession += m.team_2.stats.possession_pct || 0; data.e.shots += m.team_2.stats.shots || 0;
+                    data.e.shotsOnTarget += m.team_2.stats.shots_on_target || 0; data.e.totalPasses += m.team_2.stats.total_passes || 0;
+                    data.e.successfulPasses += m.team_2.stats.successful_passes || 0; data.e.interceptions += m.team_2.stats.interceptions || 0;
+                    data.e.tackles += m.team_2.stats.tackles || 0; data.e.crosses += m.team_2.stats.crosses || 0;
+                }
+            });
+            return data;
+        }
+
+        function updateChart(metric, event) {
+            if (event) {
+                document.querySelectorAll('.tabs button').forEach(btn => btn.classList.remove('active'));
+                event.target.classList.add('active');
+            }
+            let metrics = calculateMetrics();
+            let total = matchHistory.length;
+            if (!metrics) return;
+
+            let summaryHtml = ""; let chartLabels = []; let chartDatasets = [];
+
+            if (metric === 'possession') {
+                let avgF = (metrics.f.possession / total).toFixed(1), avgE = (metrics.e.possession / total).toFixed(1);
+                summaryHtml = `<div class="summary-row"><span class="team-summary-name team-f-text">Германия:</span> <span>Среднее владение — <strong>${avgF}%</strong></span></div><div class="summary-row"><span class="team-summary-name team-e-text">Испания:</span> <span>Среднее владение — <strong>${avgE}%</strong></span></div>`;
+                chartLabels = [`Германия: ${avgF}%`, `Испания: ${avgE}%`];
+                chartDatasets = [{ data: [avgF, avgE], backgroundColor: ['#e23636', '#ffb822'] }];
+            } else if (metric === 'shots') {
+                let avgF_s = (metrics.f.shots / total).toFixed(1), avgF_ot = (metrics.f.shotsOnTarget / total).toFixed(1);
+                let avgE_s = (metrics.e.shots / total).toFixed(1), avgE_ot = (metrics.e.shotsOnTarget / total).toFixed(1);
+                summaryHtml = `<div class="summary-row"><span class="team-summary-name team-f-text">Германия:</span> <span>Всего ударов: <strong>${metrics.f.shots}</strong> (в створ: <strong>${metrics.f.shotsOnTarget}</strong>) | Ср: <strong>${avgF_s}</strong> / <strong>${avgF_ot}</strong></span></div><div class="summary-row"><span class="team-summary-name team-e-text">Испания:</span> <span>Всего ударов: <strong>${metrics.e.shots}</strong> (в створ: <strong>${metrics.e.shotsOnTarget}</strong>) | Ср: <strong>${avgE_s}</strong> / <strong>${avgE_ot}</strong></span></div>`;
+                chartLabels = [`Германия (В створ: ${metrics.f.shotsOnTarget})`, `Испания (В створ: ${metrics.e.shotsOnTarget})`];
+                chartDatasets = [
+                    { data: [metrics.f.shots, metrics.e.shots], backgroundColor: ['#e23636', '#ffb822'], label: 'Всего ударов' },
+                    { data: [metrics.f.shotsOnTarget, metrics.e.shotsOnTarget], backgroundColor: ['#a82222', '#cca014'], label: 'В створ' }
+                ];
+            } else if (metric === 'pass_accuracy') {
+                let pctF = ((metrics.f.successfulPasses / metrics.f.totalPasses) * 100).toFixed(1), pctE = ((metrics.e.successfulPasses / metrics.e.totalPasses) * 100).toFixed(1);
+                let avgF = (metrics.f.totalPasses / total).toFixed(1), avgE = (metrics.e.totalPasses / total).toFixed(1);
+                summaryHtml = `<div class="summary-row"><span class="team-summary-name team-f-text">Германия:</span> <span>Пасов: <strong>${metrics.f.totalPasses}</strong>, точных: <strong>${metrics.f.successfulPasses}</strong> (<strong>${pctF}%</strong>) | Ср: <strong>${avgF}</strong></span></div><div class="summary-row"><span class="team-summary-name team-e-text">Испания:</span> <span>Пасов: <strong>${metrics.e.totalPasses}</strong>, точных: <strong>${metrics.e.successfulPasses}</strong> (<strong>${pctE}%</strong>) | Ср: <strong>${avgE}</strong></span></div>`;
+                chartLabels = [`Германия (Точность: ${pctF}%)`, `Испания (Точность: ${pctE}%)`];
+                chartDatasets = [
+                    { data: [metrics.f.totalPasses, metrics.e.totalPasses], backgroundColor: ['#e23636', '#ffb822'], label: 'Всего пасов' },
+                    { data: [metrics.f.successfulPasses, metrics.e.successfulPasses], backgroundColor: ['#a82222', '#cca014'], label: 'Точные пасы' }
+                ];
+            } else if (metric === 'crosses') {
+                let avgF = (metrics.f.crosses / total).toFixed(1), avgE = (metrics.e.crosses / total).toFixed(1);
+                summaryHtml = `<div class="summary-row"><span class="team-summary-name team-f-text">Германия:</span> <span>Навесы всего: <strong>${metrics.f.crosses}</strong> | Ср. за матч: <strong>${avgF}</strong></span></div><div class="summary-row"><span class="team-summary-name team-e-text">Испания:</span> <span>Навесы всего: <strong>${metrics.e.crosses}</strong> | Ср. за матч: <strong>${avgE}</strong></span></div>`;
+                chartLabels = [`Германия: ${metrics.f.crosses} шт.`, `Испания: ${metrics.e.crosses} шт.`];
+                chartDatasets = [{ data: [metrics.f.crosses, metrics.e.crosses], backgroundColor: ['#e23636', '#ffb822'] }];
+            } else if (metric === 'interceptions') {
+                let avgF = (metrics.f.interceptions / total).toFixed(1), avgE = (metrics.e.interceptions / total).toFixed(1);
+                summaryHtml = `<div class="summary-row"><span class="team-summary-name team-f-text">Германия:</span> <span>Перехваты всего: <strong>${metrics.f.interceptions}</strong> | Ср. за матч: <strong>${avgF}</strong></span></div><div class="summary-row"><span class="team-summary-name team-e-text">Испания:</span> <span>Перехваты всего: <strong>${metrics.e.interceptions}</strong> | Ср. за матч: <strong>${avgE}</strong></span></div>`;
+                chartLabels = [`Германия: ${metrics.f.interceptions} шт.`, `Испания: ${metrics.e.interceptions} шт.`];
+                chartDatasets = [{ data: [metrics.f.interceptions, metrics.e.interceptions], backgroundColor: ['#e23636', '#ffb822'] }];
+            } else if (metric === 'goals') {
+                let avgF = (metrics.f.goals / total).toFixed(1), avgE = (metrics.e.goals / total).toFixed(1);
+                summaryHtml = `<div class="summary-row"><span class="team-summary-name team-f-text">Германия:</span> <span>Забито: <strong>${metrics.f.goals}</strong> (пропущено: <strong>${metrics.e.goals}</strong>) | Ср: <strong>${avgF}</strong></span></div><div class="summary-row"><span class="team-summary-name team-e-text">Испания:</span> <span>Забито: <strong>${metrics.e.goals}</strong> (пропущено: <strong>${metrics.f.goals}</strong>) | Ср: <strong>${avgE}</strong></span></div>`;
+                chartLabels = [`Германия: ${metrics.f.goals} ⚽`, `Испания: ${metrics.e.goals} ⚽`];
+                chartDatasets = [{ data: [metrics.f.goals, metrics.e.goals], backgroundColor: ['#e23636', '#ffb822'] }];
+            } else if (metric === 'tackles') {
+                let avgF = (metrics.f.tackles / total).toFixed(1), avgE = (metrics.e.tackles / total).toFixed(1);
+                summaryHtml = `<div class="summary-row"><span class="team-summary-name team-f-text">Германия:</span> <span>Отборы всего: <strong>${metrics.f.tackles}</strong> | Ср. за матч: <strong>${avgF}</strong></span></div><div class="summary-row"><span class="team-summary-name team-e-text">Испания:</span> <span>Отборы всего: <strong>${metrics.e.tackles}</strong> | Ср. за матч: <strong>${avgE}</strong></span></div>`;
+                chartLabels = [`Германия: ${metrics.f.tackles} отб.`, `Испания: ${metrics.e.tackles} отб.`];
+                chartDatasets = [{ data: [metrics.f.tackles, metrics.e.tackles], backgroundColor: ['#e23636', '#ffb822'] }];
+            }
+
+            document.getElementById('statsSummaryBox').innerHTML = summaryHtml;
+            if (statsChart) statsChart.destroy();
+            const ctx = document.getElementById('statsChart').getContext('2d');
+            Chart.defaults.font.family = "'Montserrat', sans-serif";
+
+            statsChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: { labels: chartLabels, datasets: chartDatasets },
+                options: {
+                    responsive: true, maintainAspectRatio: false, cutout: '45%',
+                    plugins: {
+                        legend: { display: true, position: 'bottom', labels: { color: '#ffffff', font: { size: 12, weight: '600' }, padding: 15 } },
+                        tooltip: { callbacks: { label: function(c) { let l = c.dataset.label || ''; if (l) l += ': '; l += c.raw; return l; } } }
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
