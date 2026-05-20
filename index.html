@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>PES 2021 | Ultimate Competition</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,6 +22,16 @@
             --fs-accent-red: #ff1e00;
             --fs-team1: #e23636;
             --fs-team2: #ffb822;
+        }
+
+        /* Глобальный сброс для фиксации горизонтального скролла */
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            overflow-x: hidden; /* Жесткая фиксация по горизонтали */
+            width: 100%;
         }
 
         body {
@@ -52,6 +62,7 @@
             height: 60px;
             border-bottom: 1px solid var(--fs-border);
             position: relative;
+            width: 100%;
         }
         
         .header-logo {
@@ -66,23 +77,33 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
             color: transparent; 
-            white-space: nowrap;
+            white-space: normal;
+            text-align: center;
+            line-height: 1.2;
         }
 
-        .header-action-block { display: flex; flex-direction: column; align-items: center; gap: 3px; }
-        .header-btn {
-            background-color: transparent; color: var(--fs-text-main); border: 1px solid var(--fs-border);
-            padding: 6px 15px; border-radius: 3px; cursor: pointer; font-size: 0.85em; font-weight: 600;
-            transition: background 0.2s;
+        .header-action-block { display: flex; flex-direction: column; align-items: center; gap: 3px; z-index: 10;}
+        
+        .header-status {
+            background-color: rgba(7, 14, 21, 0.6);
+            color: var(--fs-text-main);
+            border: 1px solid var(--fs-border);
+            padding: 6px 15px;
+            border-radius: 3px;
+            font-size: 0.75em;
+            text-transform: uppercase;
+            font-weight: 700;
+            cursor: default;
         }
-        .header-btn:hover { background-color: var(--fs-bg-panel); }
-        .version-label { font-size: 0.68em; color: var(--fs-text-muted); font-weight: 700; letter-spacing: 0.5px; }
 
-        .container { max-width: 1100px; margin: 30px auto; padding: 0 20px; }
+        .version-label { font-size: 0.75em; color: var(--fs-text-muted); font-weight: 700; letter-spacing: 0.5px; }
+
+        .container { max-width: 1100px; margin: 30px auto; padding: 0 20px; width: 100%; }
 
         .scoreboard {
             background-color: var(--fs-bg-panel); border: 1px solid var(--fs-border);
             border-radius: 4px; margin-bottom: 20px; display: flex; flex-direction: column;
+            width: 100%;
         }
         .scoreboard-header {
             background-color: rgba(13, 26, 39, 0.85); padding: 10px 20px; font-size: 0.85em;
@@ -154,9 +175,24 @@
         .best-matches-col { flex: 1; }
         .bm-title { text-align: center; font-size: 0.8em; font-weight: 700; color: var(--fs-text-muted); margin-bottom: 10px; padding-bottom: 5px; border-bottom: 1px solid var(--fs-border);}
 
+        /* ПРОФЕССИОНАЛЬНЫЙ ПОДВАЛ */
+        .app-footer {
+            text-align: center;
+            padding: 30px 20px 40px 20px;
+            margin-top: 20px;
+            border-top: 1px solid var(--fs-border);
+            font-size: 0.75em;
+            color: var(--fs-text-muted);
+            line-height: 1.6;
+        }
+        .app-footer strong {
+            color: var(--fs-text-main);
+            font-weight: 700;
+        }
+
         @media (max-width: 768px) {
-            header { flex-direction: column; justify-content: center; height: auto; padding: 15px; gap: 15px; }
-            .header-logo { position: relative; left: 0; transform: none; font-size: 1.4em; }
+            header { flex-direction: column; justify-content: center; height: auto; padding: 20px 15px; gap: 15px; }
+            .header-logo { position: relative; left: 0; transform: none; font-size: 1.3em; }
             .scoreboard-content { flex-direction: column; gap: 25px; padding: 20px 10px; }
             .score-box { width: 100%; }
             .center-stats { flex-direction: row; flex-wrap: wrap; justify-content: center; width: 100%; gap: 10px; }
@@ -172,10 +208,10 @@
 </head>
 <body>
     <header>
-        <div class="header-logo">PES 2021 Ultimate Competition</div>
+        <div class="header-logo">PES 2021<br>Ultimate Competition</div>
         <div class="header-action-block">
-            <button class="header-btn" onclick="refreshVersion()">ОБНОВИТЬ ДАННЫЕ</button>
-            <div class="version-label" id="versionLabel">v1.0.0</div>
+            <div class="header-status">Версия базы данных</div>
+            <div class="version-label">v1.0.3</div>
         </div>
     </header>
 
@@ -331,13 +367,18 @@
                 </div>
             </div>
         </div>
+
+        <div class="app-footer">
+            Аналитика и обработка данных генерируются с помощью нейросетей.<br>
+            В основе архитектуры проекта лежат технологии <strong>Qwen</strong>, <strong>Gemini AI</strong> и оболочка <strong>Android Studio</strong>.<br>
+            <em>Внимание: Искусственный интеллект может допускать незначительные погрешности в сборе статистики.</em>
+        </div>
+
     </div>
 
     <script>
         let matchHistory = [];
         let statsChart = null;
-
-        initVersion();
 
         fetch('history.json?nocache=' + new Date().getTime())
             .then(response => {
@@ -351,24 +392,6 @@
             .catch(error => {
                 console.error("Ошибка загрузки:", error);
             });
-
-        function initVersion() {
-            let currentVer = localStorage.getItem('pes_project_version');
-            if (!currentVer) { currentVer = "1.0.0"; localStorage.setItem('pes_project_version', currentVer); }
-            document.getElementById('versionLabel').innerText = "v" + currentVer;
-        }
-
-        function refreshVersion() {
-            let currentVer = localStorage.getItem('pes_project_version') || "1.0.0";
-            let parts = currentVer.split('.');
-            let patch = parseInt(parts[2]) + 1;
-            let minor = parseInt(parts[1]);
-            let major = parseInt(parts[0]);
-            if (patch >= 10) { patch = 0; minor += 1; }
-            if (minor >= 10) { minor = 0; major += 1; }
-            localStorage.setItem('pes_project_version', `${major}.${minor}.${patch}`);
-            location.reload();
-        }
 
         function parseMinute(minStr) {
             if (typeof minStr === 'number') return minStr;
