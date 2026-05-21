@@ -18208,7 +18208,7 @@
       "name": "ИСПАНИЯ",
       "player": "Эмиль",
       "is_home": true,
-      "goals": 13,
+      "goals": 3,
       "scorers": [
         {
           "name": "MORATA",
@@ -21063,5 +21063,74 @@
       }
     },
     "date": "19.05.2026"
+  },
+  {
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "Jamal MUSIALA",
+          "minute": 27,
+          "type": "normal"
+        },
+        {
+          "name": "Serge GNABRY",
+          "minute": 83,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 56,
+        "shots": 13,
+        "shots_on_target": 7,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 6,
+        "total_passes": 259,
+        "successful_passes": 209,
+        "crosses": 5,
+        "interceptions": 29,
+        "tackles": 2,
+        "saves": 7
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 45,
+          "type": "normal"
+        },
+        {
+          "name": "MORATA",
+          "minute": 47,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 44,
+        "shots": 16,
+        "shots_on_target": 11,
+        "fouls": 6,
+        "offsides": 1,
+        "corners": 7,
+        "free_kicks": 4,
+        "total_passes": 199,
+        "successful_passes": 144,
+        "crosses": 13,
+        "interceptions": 29,
+        "tackles": 2,
+        "saves": 6
+      }
+    },
+    "date": "21.05.2026"
   }
 ]
