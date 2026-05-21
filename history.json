@@ -21132,5 +21132,79 @@
       }
     },
     "date": "21.05.2026"
+  },
+  {
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "N. FÜLLKRUG",
+          "minute": 62,
+          "type": "normal"
+        },
+        {
+          "name": "Serge GNABRY",
+          "minute": 81,
+          "type": "normal"
+        },
+        {
+          "name": "Marco REUS",
+          "minute": 89,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 62,
+        "shots": 12,
+        "shots_on_target": 9,
+        "fouls": 3,
+        "offsides": 2,
+        "corners": 2,
+        "free_kicks": 3,
+        "total_passes": 213,
+        "successful_passes": 183,
+        "crosses": 9,
+        "interceptions": 27,
+        "tackles": 1,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "DANI OLMO",
+          "minute": 70,
+          "type": "normal"
+        },
+        {
+          "name": "YEREMI PINO",
+          "minute": 80,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 38,
+        "shots": 7,
+        "shots_on_target": 4,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 2,
+        "total_passes": 130,
+        "successful_passes": 90,
+        "crosses": 7,
+        "interceptions": 17,
+        "tackles": 6,
+        "saves": 5
+      }
+    },
+    "date": "21.05.2026"
   }
 ]
