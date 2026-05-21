@@ -342,9 +342,10 @@
 
     <script>
         // ==========================================
-        // ЛОГИКА ОТПРАВКИ ФАЙЛОВ НА КОМПЬЮТЕР
         // ==========================================
-        const PC_IP = "192.168.0.106"; // <--- ВАЖНО: ВПИШИ СЮДА ЛОКАЛЬНЫЙ IP СВОЕГО КОМПЬЮТЕРА
+        // ЛОГИКА ОТПРАВКИ ФАЙЛОВ НА КОМПЬЮТЕР (NGROK)
+        // ==========================================
+        const SERVER_URL = "ВСТАВЬ_СЮДА_ССЫЛКУ_ИЗ_NGROK_БЕЗ_СЛЕША_НА_КОНЦЕ"; 
 
         function handleFileSelect(inputElement, boxId, textId) {
             const box = document.getElementById(boxId);
@@ -376,7 +377,7 @@
             formData.append("stats", fileStats);
 
             try {
-                const response = await fetch(`http://${PC_IP}:5000/upload`, {
+                const response = await fetch(`${SERVER_URL}/upload`, {
                     method: 'POST',
                     body: formData
                 });
@@ -390,7 +391,6 @@
                         btn.style.backgroundColor = "var(--fs-upload-orange)";
                         btn.disabled = false;
                         
-                        // Сброс формы
                         document.getElementById('fileScorers').value = "";
                         document.getElementById('fileStats').value = "";
                         document.getElementById('boxScorers').classList.remove('has-file');
@@ -399,12 +399,12 @@
                         document.getElementById('textStats').innerText = "ИЗОБРАЖЕНИЕ";
                     }, 2000);
                 } else {
-                    alert("Ошибка сервера. Проверь запущен ли server.py на ПК.");
+                    alert("Ошибка сервера. Проверь запущен ли server.py и Ngrok на ПК.");
                     btn.disabled = false;
                     btn.innerText = "Отправить на сервер";
                 }
             } catch (error) {
-                alert("Ошибка соединения. Убедись, что телефон и ПК в одной Wi-Fi сети, а IP адрес указан верно.");
+                alert("Ошибка соединения. Убедись, что ПК включен и Ngrok работает.");
                 console.error(error);
                 btn.disabled = false;
                 btn.innerText = "Отправить на сервер";
