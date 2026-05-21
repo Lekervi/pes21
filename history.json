@@ -21343,5 +21343,58 @@
       }
     },
     "date": "21.05.2026"
+  },
+  {
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 53,
+        "shots": 6,
+        "shots_on_target": 3,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 4,
+        "free_kicks": 7,
+        "total_passes": 184,
+        "successful_passes": 149,
+        "crosses": 9,
+        "interceptions": 25,
+        "tackles": 6,
+        "saves": 1
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 58,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 47,
+        "shots": 3,
+        "shots_on_target": 2,
+        "fouls": 7,
+        "offsides": 3,
+        "corners": 0,
+        "free_kicks": 2,
+        "total_passes": 155,
+        "successful_passes": 117,
+        "crosses": 1,
+        "interceptions": 18,
+        "tackles": 6,
+        "saves": 4
+      }
+    },
+    "date": "21.05.2026"
   }
 ]
