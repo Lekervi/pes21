@@ -21206,5 +21206,79 @@
       }
     },
     "date": "21.05.2026"
+  },
+  {
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "Leroy SANÉ",
+          "minute": 26,
+          "type": "normal"
+        },
+        {
+          "name": "N. FÜLLKRUG",
+          "minute": 85,
+          "type": "normal"
+        },
+        {
+          "name": "N. FÜLLKRUG",
+          "minute": 87,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 60,
+        "shots": 12,
+        "shots_on_target": 6,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 6,
+        "free_kicks": 2,
+        "total_passes": 218,
+        "successful_passes": 183,
+        "crosses": 11,
+        "interceptions": 25,
+        "tackles": 4,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "MIKEL OYARZABAL",
+          "minute": 14,
+          "type": "normal"
+        },
+        {
+          "name": "NICO WILLIAMS",
+          "minute": 90,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 40,
+        "shots": 8,
+        "shots_on_target": 5,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 2,
+        "total_passes": 140,
+        "successful_passes": 104,
+        "crosses": 8,
+        "interceptions": 19,
+        "tackles": 6,
+        "saves": 4
+      }
+    },
+    "date": "21.05.2026"
   }
 ]
