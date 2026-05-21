@@ -21280,5 +21280,68 @@
       }
     },
     "date": "21.05.2026"
+  },
+  {
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "N. FÜLLKRUG",
+          "minute": 3,
+          "type": "normal"
+        },
+        {
+          "name": "N. FÜLLKRUG",
+          "minute": 20,
+          "type": "normal"
+        },
+        {
+          "name": "Leroy SANÉ",
+          "minute": 71,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 54,
+        "shots": 10,
+        "shots_on_target": 8,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 4,
+        "free_kicks": 3,
+        "total_passes": 184,
+        "successful_passes": 157,
+        "crosses": 6,
+        "interceptions": 18,
+        "tackles": 4,
+        "saves": 2
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 46,
+        "shots": 11,
+        "shots_on_target": 4,
+        "fouls": 3,
+        "offsides": 1,
+        "corners": 3,
+        "free_kicks": 2,
+        "total_passes": 158,
+        "successful_passes": 126,
+        "crosses": 6,
+        "interceptions": 15,
+        "tackles": 8,
+        "saves": 2
+      }
+    },
+    "date": "21.05.2026"
   }
 ]
