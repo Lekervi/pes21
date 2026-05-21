@@ -51,7 +51,6 @@
             padding: 0 40px; height: 60px; border-bottom: 1px solid var(--fs-border); position: relative; width: 100%;
         }
         
-        /* Оранжевая кнопка из макета */
         .upload-trigger {
             background-color: var(--fs-upload-orange); width: 40px; height: 30px; border-radius: 4px;
             position: absolute; left: 40px; cursor: pointer; transition: opacity 0.2s;
@@ -151,7 +150,7 @@
             background-color: #f1f1f1; height: 120px; display: flex; justify-content: center; align-items: center; cursor: pointer; position: relative;
         }
         .upload-image-box span { color: var(--fs-upload-orange); font-size: 1.5em; font-weight: 400; text-transform: uppercase; }
-        .upload-image-box input[type="file"] { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; }
+        .upload-image-box input[type="file"] { position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer; z-index: 10; }
         .upload-image-box.has-file { background-color: #d4edda; }
         .upload-image-box.has-file span { color: #155724; font-weight: 700; font-size: 1.2em; }
 
@@ -181,7 +180,6 @@
 <body>
     <header>
         <div class="upload-trigger" onclick="document.getElementById('uploadModal').classList.add('active')"></div>
-        
         <div class="header-logo">PES 2021<br>Ultimate Competition</div>
         <div class="header-action-block">
             <div class="header-status">Версия базы данных</div>
@@ -197,7 +195,7 @@
                 <div class="upload-title">Авторы голов</div>
                 <div class="upload-image-box" id="boxScorers">
                     <span id="textScorers">Изображение</span>
-                    <input type="file" id="fileScorers" accept="image/*" capture="camera" onchange="handleFileSelect(this, 'boxScorers', 'textScorers')">
+                    <input type="file" id="fileScorers" accept="image/*" onchange="handleFileSelect(this, 'boxScorers', 'textScorers')">
                 </div>
             </div>
 
@@ -205,7 +203,7 @@
                 <div class="upload-title">Итоги матча</div>
                 <div class="upload-image-box" id="boxStats">
                     <span id="textStats">Изображение</span>
-                    <input type="file" id="fileStats" accept="image/*" capture="camera" onchange="handleFileSelect(this, 'boxStats', 'textStats')">
+                    <input type="file" id="fileStats" accept="image/*" onchange="handleFileSelect(this, 'boxStats', 'textStats')">
                 </div>
             </div>
 
@@ -366,7 +364,7 @@
             const btn = document.getElementById('sendBtn');
 
             if (!fileScorers || !fileStats) {
-                alert("Пожалуйста, сделай оба снимка перед отправкой!");
+                alert("Пожалуйста, выбери оба снимка перед отправкой!");
                 return;
             }
 
@@ -414,7 +412,7 @@
         }
 
         // ==========================================
-        // ЛОГИКА ОТРИСОВКИ СТАТИСТИКИ (БЕЗ ИЗМЕНЕНИЙ)
+        // ЛОГИКА ОТРИСОВКИ СТАТИСТИКИ
         // ==========================================
         let matchHistory = [];
         let statsChart = null;
