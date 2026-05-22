@@ -12268,5 +12268,64 @@
         "saves": 4
       }
     }
+  },
+  {
+    "id": "186_ger_spain_4_0_22-05-2026",
+    "date": "22.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "N. FÜLLKRUG",
+          "minute": 8,
+          "type": "own_goal"
+        },
+        {
+          "name": "Leroy SANÉ",
+          "minute": 24,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 57,
+        "shots": 14,
+        "shots_on_target": 8,
+        "fouls": 4,
+        "offsides": 3,
+        "corners": 4,
+        "free_kicks": 4,
+        "total_passes": 219,
+        "successful_passes": 186,
+        "crosses": 8,
+        "interceptions": 28,
+        "tackles": 7,
+        "saves": 1
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 43,
+        "shots": 2,
+        "shots_on_target": 1,
+        "fouls": 5,
+        "offsides": 0,
+        "corners": 0,
+        "free_kicks": 4,
+        "total_passes": 151,
+        "successful_passes": 107,
+        "crosses": 2,
+        "interceptions": 18,
+        "tackles": 7,
+        "saves": 4
+      }
+    }
   }
 ]
