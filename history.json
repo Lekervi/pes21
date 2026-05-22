@@ -12203,5 +12203,135 @@
         "saves": 2
       }
     }
+  },
+  {
+    "id": "185_ger_spain_1_2_22-05-2026",
+    "date": "22.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "N. FÜLLKRUG",
+          "minute": 43,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 62,
+        "shots": 13,
+        "shots_on_target": 4,
+        "fouls": 9,
+        "offsides": 1,
+        "corners": 8,
+        "free_kicks": 8,
+        "total_passes": 295,
+        "successful_passes": 205,
+        "crosses": 20,
+        "interceptions": 24,
+        "tackles": 6,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "PORTU",
+          "minute": 6,
+          "type": "normal"
+        },
+        {
+          "name": "MIKEL OYARZABAL",
+          "minute": 115,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 38,
+        "shots": 8,
+        "shots_on_target": 5,
+        "fouls": 9,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 24,
+        "total_passes": 179,
+        "successful_passes": 136,
+        "crosses": 7,
+        "interceptions": 23,
+        "tackles": 8,
+        "saves": 4
+      }
+    }
+  },
+  {
+    "id": "186_ger_spain_1_2_22-05-2026",
+    "date": "22.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "N. FÜLLKRUG",
+          "minute": 43,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 62,
+        "shots": 13,
+        "shots_on_target": 4,
+        "fouls": 9,
+        "offsides": 1,
+        "corners": 8,
+        "free_kicks": 8,
+        "total_passes": 295,
+        "successful_passes": 205,
+        "crosses": 20,
+        "interceptions": 24,
+        "tackles": 6,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "PORTU",
+          "minute": 6,
+          "type": "normal"
+        },
+        {
+          "name": "MIKEL OYARZABAL",
+          "minute": 115,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 38,
+        "shots": 8,
+        "shots_on_target": 5,
+        "fouls": 8,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 24,
+        "total_passes": 179,
+        "successful_passes": 136,
+        "crosses": 7,
+        "interceptions": 23,
+        "tackles": 3,
+        "saves": 4
+      }
+    }
   }
 ]
