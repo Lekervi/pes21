@@ -51,7 +51,9 @@
             padding: 0 40px; height: 60px; border-bottom: 1px solid var(--fs-border); position: relative; width: 100%;
         }
         
+        /* Кнопка скрыта по умолчанию (display: none) */
         .upload-trigger {
+            display: none;
             background-color: var(--fs-upload-orange); width: 40px; height: 30px; border-radius: 4px;
             position: absolute; left: 40px; cursor: pointer; transition: opacity 0.2s;
         }
@@ -179,7 +181,7 @@
 </head>
 <body>
     <header>
-        <div class="upload-trigger" onclick="document.getElementById('uploadModal').classList.add('active')"></div>
+        <div class="upload-trigger" id="adminTrigger" onclick="document.getElementById('uploadModal').classList.add('active')"></div>
         <div class="header-logo">PES 2021<br>Ultimate Competition</div>
         <div class="header-action-block">
             <div class="header-status">Версия базы данных</div>
@@ -341,6 +343,14 @@
     </div>
 
     <script>
+        // ==========================================
+        // ПРОВЕРКА ПРАВ ДОСТУПА (АДМИН / ЧИТАТЕЛЬ)
+        // ==========================================
+        const urlParams = new URLSearchParams(window.location.search);
+        if (urlParams.get('mode') === 'admin') {
+            document.getElementById('adminTrigger').style.display = 'block';
+        }
+
         // ==========================================
         // ЛОГИКА ОТПРАВКИ ФАЙЛОВ НА КОМПЬЮТЕР (NGROK)
         // ==========================================
