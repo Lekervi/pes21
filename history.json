@@ -21465,5 +21465,69 @@
       }
     },
     "date": "22.05.2026"
+  },
+  {
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "Marco REUS",
+          "minute": 39,
+          "type": "normal"
+        },
+        {
+          "name": "Marco REUS",
+          "minute": 50,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 57,
+        "shots": 13,
+        "shots_on_target": 7,
+        "fouls": 0,
+        "offsides": 0,
+        "corners": 0,
+        "free_kicks": 2,
+        "total_passes": 194,
+        "successful_passes": 162,
+        "crosses": 4,
+        "interceptions": 21,
+        "tackles": 4,
+        "saves": 6
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 70,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 43,
+        "shots": 9,
+        "shots_on_target": 7,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 0,
+        "total_passes": 152,
+        "successful_passes": 121,
+        "crosses": 6,
+        "interceptions": 21,
+        "tackles": 2,
+        "saves": 2
+      }
+    },
+    "date": "22.05.2026"
   }
 ]
