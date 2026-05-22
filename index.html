@@ -51,7 +51,6 @@
             padding: 0 40px; height: 60px; border-bottom: 1px solid var(--fs-border); position: relative; width: 100%;
         }
         
-        /* Кнопка скрыта по умолчанию (display: none) */
         .upload-trigger {
             display: none;
             background-color: var(--fs-upload-orange); width: 40px; height: 30px; border-radius: 4px;
@@ -185,7 +184,7 @@
         <div class="header-logo">PES 2021<br>Ultimate Competition</div>
         <div class="header-action-block">
             <div class="header-status">Версия базы данных</div>
-            <div class="version-label">v1.0.3</div>
+            <div class="version-label">v1.1.0</div>
         </div>
     </header>
 
@@ -313,6 +312,10 @@
             <div class="panel-header">АНАЛИТИКА ГОЛОВ (ПСИХОЛОГИЯ И ХОД ИГРЫ)</div>
             <div class="panel-body">
                 <div class="custom-box">
+                    <div class="custom-info"><div class="custom-title" style="color: var(--fs-accent-red);">Гяхпя голы 🤬</div><div class="custom-desc">Подлые и выбешивающие голы (старт матча ≤3', концовка таймов 44'+, 89'+, овертаймы 118'+).</div></div>
+                    <div class="custom-stats" id="statGiahpiaGoals"></div>
+                </div>
+                <div class="custom-box">
                     <div class="custom-info"><div class="custom-title">Первая кровь</div><div class="custom-desc">Кто чаще забивает первый гол в матче, навязывая свою игру.</div></div>
                     <div class="custom-stats" id="statFirstBlood"></div>
                 </div>
@@ -396,7 +399,7 @@
                     btn.style.backgroundColor = "#28a745";
                     setTimeout(() => {
                         document.getElementById('uploadModal').classList.remove('active');
-                        btn.innerText = "Отправить на сервер";
+                        btn.innerText = "Отправить на server";
                         btn.style.backgroundColor = "var(--fs-upload-orange)";
                         btn.disabled = false;
                         
@@ -448,6 +451,16 @@
             return parseInt(m) || 0;
         }
 
+        function isGiahpia(minuteStr) {
+            let min = parseMinute(minuteStr);
+            let s = String(minuteStr);
+            if (min <= 3) return true;
+            if (s.includes("44+") || min === 45) return true;
+            if (s.includes("89+") || min === 90) return true;
+            if (s.includes("118+") || min >= 120) return true;
+            return false;
+        }
+
         function processData() {
             if (matchHistory.length === 0) return;
 
@@ -463,8 +476,9 @@
             let earlyF = 0, earlyE = 0, lateF = 0, lateE = 0;
             let comebacksF = 0, comebacksE = 0;
             let chokesF = 0, chokesE = 0;
+            let gpGoalsF = 0, gpGoalsE = 0;
 
-            let fastestStreaks = [];
+            let hatTricksStreaks = [];
 
             let curious = {
                 otskok: { diff: -99, text: "Пока нет" },
@@ -499,6 +513,11 @@
                         if (type === 'own_goal') { if (isF) ogF++; else ogE++; }
                         scorers[s.name] = (scorers[s.name] || 0) + 1;
                         let min = parseMinute(s.minute);
+                        
+                        if (isGiahpia(s.minute)) {
+                            if (isF) gpGoalsF++; else gpGoalsE++;
+                        }
+                        
                         if(min > 0) timeline.push({team: team, player: s.name, min: min});
                     });
                 };
@@ -529,11 +548,15 @@
                     if (!pGoals[g.player]) pGoals[g.player] = [];
                     pGoals[g.player].push(g.min);
                 });
+                
                 for (let p in pGoals) {
                     let mins = pGoals[p].sort((a,b)=>a-b);
-                    if (mins.length >= 2) {
-                        for(let i=0; i<mins.length-1; i++) {
-                            fastestStreaks.push({ player: p, gap: mins[i+1]-mins[i], text: `${mins[i]}' и ${mins[i+1]}'` });
+                    if (mins.length >= 3) {
+                        for(let i=0; i <= mins.length - 3; i++) {
+                            let gap = mins[i+2] - mins[i];
+                            if (gap <= 10) {
+                                hatTricksStreaks.push({ player: p, gap: gap, text: `${mins[i]}', ${mins[i+1]}' и ${mins[i+2]}'` });
+                            }
                         }
                     }
                 }
@@ -625,19 +648,16 @@
                 <li><span>Главный костолом (Фолы)</span> <strong>${rec.foulsText}</strong></li>
             `;
 
+            document.getElementById('statGiahpiaGoals').innerHTML = `<div class="custom-row"><span>Фарид (Германия):</span> <span>${gpGoalsF} ⚽</span></div><div class="custom-row"><span>Эмиль (Испания):</span> <span>${gpGoalsE} ⚽</span></div>`;
             document.getElementById('statFirstBlood').innerHTML = `<div class="custom-row"><span>Фарид:</span> <span>${firstBloodF} раз</span></div><div class="custom-row"><span>Эмиль:</span> <span>${firstBloodE} раз</span></div>`;
             document.getElementById('statEarlyGoals').innerHTML = `<div class="custom-row"><span>Фарид:</span> <span>${earlyF} ⚽</span></div><div class="custom-row"><span>Эмиль:</span> <span>${earlyE} ⚽</span></div>`;
             document.getElementById('statLateGoals').innerHTML = `<div class="custom-row"><span>Фарид:</span> <span>${lateF} ⚽</span></div><div class="custom-row"><span>Эмиль:</span> <span>${lateE} ⚽</span></div>`;
             document.getElementById('statComebacks').innerHTML = `<div class="custom-row"><span>Фарид:</span> <span>${comebacksF} раз</span></div><div class="custom-row"><span>Эмиль:</span> <span>${comebacksE} раз</span></div>`;
             document.getElementById('statChokes').innerHTML = `<div class="custom-row"><span>Фарид:</span> <span>${chokesF} раз</span></div><div class="custom-row"><span>Эмиль:</span> <span>${chokesE} раз</span></div>`;
 
-            fastestStreaks.sort((a,b) => a.gap - b.gap);
-            let seenPlayers = new Set(); let uniqueStreaks = [];
-            for (let s of fastestStreaks) {
-                if (!seenPlayers.has(s.player)) { uniqueStreaks.push(s); seenPlayers.add(s.player); }
-                if (uniqueStreaks.length >= 6) break;
-            }
-            document.getElementById('machineGun').innerHTML = uniqueStreaks.map(s => `<li><span>${s.player} <span class="sub-text">Минуты: ${s.text}</span></span> <strong>за ${s.gap} мин.</strong></li>`).join('') || "<li>Нет серий</li>";
+            hatTricksStreaks.sort((a,b) => a.gap - b.gap);
+            let uniqueHatTricks = hatTricksStreaks.slice(0, 6);
+            document.getElementById('machineGun').innerHTML = uniqueHatTricks.map(s => `<li><span>${s.player} <span class="sub-text">Минуты: ${s.text}</span></span> <strong>хет-трик за ${s.gap} мин.</strong></li>`).join('') || "<li>Хет-триков за 10 мин. пока нет</li>";
 
             updateChart('possession', null);
         }
