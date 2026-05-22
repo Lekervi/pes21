@@ -21396,5 +21396,74 @@
       }
     },
     "date": "21.05.2026"
+  },
+  {
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "Florian WIRTZ",
+          "minute": 44,
+          "type": "normal"
+        },
+        {
+          "name": "Serge GNABRY",
+          "minute": 64,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 48,
+        "shots": 7,
+        "shots_on_target": 3,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 0,
+        "free_kicks": 1,
+        "total_passes": 210,
+        "successful_passes": 162,
+        "crosses": 11,
+        "interceptions": 29,
+        "tackles": 6,
+        "saves": 6
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "NICO WILLIAMS",
+          "minute": 55,
+          "type": "normal"
+        },
+        {
+          "name": "NICO WILLIAMS",
+          "minute": 88,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 52,
+        "shots": 13,
+        "shots_on_target": 9,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 1,
+        "total_passes": 229,
+        "successful_passes": 180,
+        "crosses": 8,
+        "interceptions": 27,
+        "tackles": 9,
+        "saves": 0
+      }
+    },
+    "date": "22.05.2026"
   }
 ]
