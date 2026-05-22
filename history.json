@@ -12327,5 +12327,65 @@
         "saves": 4
       }
     }
+  },
+  {
+    "id": "187_ger_spain_1_1_22-05-2026",
+    "date": "22.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "N. FÜLLKRUG",
+          "minute": 80,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 57,
+        "shots": 5,
+        "shots_on_target": 2,
+        "fouls": 6,
+        "offsides": 2,
+        "corners": 6,
+        "free_kicks": 5,
+        "total_passes": 282,
+        "successful_passes": 228,
+        "crosses": 19,
+        "interceptions": 32,
+        "tackles": 4,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "Ferran TORRES",
+          "minute": 21,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 43,
+        "shots": 13,
+        "shots_on_target": 8,
+        "fouls": 5,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 6,
+        "total_passes": 203,
+        "successful_passes": 156,
+        "crosses": 7,
+        "interceptions": 30,
+        "tackles": 4,
+        "saves": 2
+      }
+    }
   }
 ]
