@@ -19517,5 +19517,3218 @@
         "saves": 5
       }
     }
+  },
+  {
+    "id": "300_ger_spain_1_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "S. GNABRY",
+          "minute": 11,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 54,
+        "shots": 12,
+        "shots_on_target": 7,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 6,
+        "free_kicks": 4,
+        "total_passes": 199,
+        "successful_passes": 161,
+        "crosses": 13,
+        "interceptions": 21,
+        "tackles": 3,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 90,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 46,
+        "shots": 12,
+        "shots_on_target": 3,
+        "fouls": 4,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 2,
+        "total_passes": 160,
+        "successful_passes": 132,
+        "crosses": 3,
+        "interceptions": 20,
+        "tackles": 7,
+        "saves": 8
+      }
+    }
+  },
+  {
+    "id": "301_ger_spain_5_4_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 5,
+      "scorers": [
+        {
+          "name": "T. MÜLLER",
+          "minute": 24,
+          "type": "normal"
+        },
+        {
+          "name": "S. GNABRY",
+          "minute": 55,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 57,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 56,
+        "shots": 8,
+        "shots_on_target": 6,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 3,
+        "total_passes": 223,
+        "successful_passes": 184,
+        "crosses": 7,
+        "interceptions": 26,
+        "tackles": 3,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 36,
+          "type": "normal"
+        },
+        {
+          "name": "MORATA",
+          "minute": 58,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 44,
+        "shots": 10,
+        "shots_on_target": 5,
+        "fouls": 4,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 1,
+        "total_passes": 162,
+        "successful_passes": 123,
+        "crosses": 4,
+        "interceptions": 28,
+        "tackles": 5,
+        "saves": 1
+      }
+    }
+  },
+  {
+    "id": "302_ger_spain_2_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Тобиас Вернер",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 29,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 73,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 51,
+        "shots": 9,
+        "shots_on_target": 5,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 1,
+        "total_passes": 174,
+        "successful_passes": 150,
+        "crosses": 11,
+        "interceptions": 17,
+        "tackles": 2,
+        "saves": 2
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Мората",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 51,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 49,
+        "shots": 5,
+        "shots_on_target": 4,
+        "fouls": 3,
+        "offsides": 1,
+        "corners": 3,
+        "free_kicks": 1,
+        "total_passes": 173,
+        "successful_passes": 138,
+        "crosses": 9,
+        "interceptions": 15,
+        "tackles": 3,
+        "saves": 4
+      }
+    }
+  },
+  {
+    "id": "303_ger_spain_6_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 6,
+      "scorers": [
+        {
+          "name": "T. KROOS",
+          "minute": 25,
+          "type": "normal"
+        },
+        {
+          "name": "L. SANÉ",
+          "minute": 47,
+          "type": "normal"
+        },
+        {
+          "name": "Florian WIRTZ",
+          "minute": 75,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 55,
+        "shots": 11,
+        "shots_on_target": 7,
+        "fouls": 7,
+        "offsides": 4,
+        "corners": 3,
+        "free_kicks": 14,
+        "total_passes": 204,
+        "successful_passes": 171,
+        "crosses": 9,
+        "interceptions": 25,
+        "tackles": 3,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 45,
+        "shots": 5,
+        "shots_on_target": 4,
+        "fouls": 15,
+        "offsides": 1,
+        "corners": 2,
+        "free_kicks": 7,
+        "total_passes": 188,
+        "successful_passes": 148,
+        "crosses": 4,
+        "interceptions": 22,
+        "tackles": 9,
+        "saves": 0
+      }
+    }
+  },
+  {
+    "id": "304_ger_spain_4_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Тайлер Вирнер",
+      "is_home": true,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 26,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 51,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 58,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 57,
+        "shots": 10,
+        "shots_on_target": 6,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 2,
+        "free_kicks": 5,
+        "total_passes": 218,
+        "successful_passes": 177,
+        "crosses": 10,
+        "interceptions": 23,
+        "tackles": 1,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 43,
+        "shots": 6,
+        "shots_on_target": 2,
+        "fouls": 6,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 2,
+        "total_passes": 156,
+        "successful_passes": 122,
+        "crosses": 7,
+        "interceptions": 26,
+        "tackles": 4,
+        "saves": 1
+      }
+    }
+  },
+  {
+    "id": "305_ger_spain_2_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "L. SANÉ",
+          "minute": 64,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 90,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 53,
+        "shots": 9,
+        "shots_on_target": 3,
+        "fouls": 2,
+        "offsides": 2,
+        "corners": 0,
+        "free_kicks": 3,
+        "total_passes": 189,
+        "successful_passes": 162,
+        "crosses": 6,
+        "interceptions": 16,
+        "tackles": 1,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 45,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 47,
+        "shots": 8,
+        "shots_on_target": 4,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 5,
+        "free_kicks": 3,
+        "total_passes": 178,
+        "successful_passes": 146,
+        "crosses": 9,
+        "interceptions": 18,
+        "tackles": 5,
+        "saves": 2
+      }
+    }
+  },
+  {
+    "id": "306_ger_spain_2_2_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "S. GNABRY",
+          "minute": 25,
+          "type": "normal"
+        },
+        {
+          "name": "T. KROOS",
+          "minute": 70,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 50,
+        "shots": 3,
+        "shots_on_target": 3,
+        "fouls": 4,
+        "offsides": 1,
+        "corners": 3,
+        "free_kicks": 5,
+        "total_passes": 186,
+        "successful_passes": 147,
+        "crosses": 9,
+        "interceptions": 24,
+        "tackles": 4,
+        "saves": 1
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "Dani OLMO",
+          "minute": 15,
+          "type": "normal"
+        },
+        {
+          "name": "MARCOS LLORENTE",
+          "minute": 17,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 50,
+        "shots": 4,
+        "shots_on_target": 3,
+        "fouls": 5,
+        "offsides": 0,
+        "corners": 0,
+        "free_kicks": 4,
+        "total_passes": 181,
+        "successful_passes": 146,
+        "crosses": 3,
+        "interceptions": 18,
+        "tackles": 7,
+        "saves": 1
+      }
+    }
+  },
+  {
+    "id": "307_ger_spain_2_2_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 14,
+          "type": "normal"
+        },
+        {
+          "name": "K. BELLARABI",
+          "minute": 110,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 50,
+        "shots": 19,
+        "shots_on_target": 10,
+        "fouls": 4,
+        "offsides": 1,
+        "corners": 6,
+        "free_kicks": 2,
+        "total_passes": 242,
+        "successful_passes": 202,
+        "crosses": 9,
+        "interceptions": 29,
+        "tackles": 6,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 79,
+          "type": "normal"
+        },
+        {
+          "name": "FERRAN TORRES",
+          "minute": 104,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 50,
+        "shots": 10,
+        "shots_on_target": 7,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 2,
+        "free_kicks": 4,
+        "total_passes": 254,
+        "successful_passes": 210,
+        "crosses": 12,
+        "interceptions": 19,
+        "tackles": 7,
+        "saves": 8
+      }
+    }
+  },
+  {
+    "id": "308_ger_spain_0_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 55,
+        "shots": 17,
+        "shots_on_target": 6,
+        "fouls": 4,
+        "offsides": 2,
+        "corners": 9,
+        "free_kicks": 2,
+        "total_passes": 228,
+        "successful_passes": 185,
+        "crosses": 12,
+        "interceptions": 34,
+        "tackles": 3,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 45,
+        "shots": 6,
+        "shots_on_target": 2,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 4,
+        "total_passes": 216,
+        "successful_passes": 158,
+        "crosses": 8,
+        "interceptions": 21,
+        "tackles": 11,
+        "saves": 7
+      }
+    }
+  },
+  {
+    "id": "309_ger_spain_2_2_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "K. BELLARABI",
+          "minute": 54,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 58,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 52,
+        "shots": 13,
+        "shots_on_target": 9,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 8,
+        "free_kicks": 2,
+        "total_passes": 247,
+        "successful_passes": 198,
+        "crosses": 10,
+        "interceptions": 31,
+        "tackles": 4,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "ANSU FATI",
+          "minute": 3,
+          "type": "normal"
+        },
+        {
+          "name": "ADAMA TRAORÉ",
+          "minute": 38,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 48,
+        "shots": 14,
+        "shots_on_target": 8,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 4,
+        "free_kicks": 3,
+        "total_passes": 221,
+        "successful_passes": 173,
+        "crosses": 7,
+        "interceptions": 33,
+        "tackles": 6,
+        "saves": 6
+      }
+    }
+  },
+  {
+    "id": "310_ger_spain_2_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "L. SANÉ",
+          "minute": 2,
+          "type": "normal"
+        },
+        {
+          "name": "T. KROOS",
+          "minute": 42,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 56,
+        "shots": 12,
+        "shots_on_target": 4,
+        "fouls": 3,
+        "offsides": 2,
+        "corners": 0,
+        "free_kicks": 7,
+        "total_passes": 204,
+        "successful_passes": 173,
+        "crosses": 9,
+        "interceptions": 24,
+        "tackles": 3,
+        "saves": 1
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 44,
+        "shots": 3,
+        "shots_on_target": 1,
+        "fouls": 7,
+        "offsides": 1,
+        "corners": 1,
+        "free_kicks": 3,
+        "total_passes": 165,
+        "successful_passes": 127,
+        "crosses": 3,
+        "interceptions": 17,
+        "tackles": 6,
+        "saves": 3
+      }
+    }
+  },
+  {
+    "id": "311_ger_spain_2_2_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 31,
+          "type": "normal"
+        },
+        {
+          "name": "S. GNABRY",
+          "minute": 92,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 55,
+        "shots": 15,
+        "shots_on_target": 8,
+        "fouls": 3,
+        "offsides": 1,
+        "corners": 6,
+        "free_kicks": 1,
+        "total_passes": 273,
+        "successful_passes": 230,
+        "crosses": 11,
+        "interceptions": 22,
+        "tackles": 2,
+        "saves": 5
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 4,
+          "type": "normal"
+        },
+        {
+          "name": "MORATA",
+          "minute": 118,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 45,
+        "shots": 11,
+        "shots_on_target": 8,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 9,
+        "free_kicks": 2,
+        "total_passes": 209,
+        "successful_passes": 158,
+        "crosses": 11,
+        "interceptions": 25,
+        "tackles": 7,
+        "saves": 5
+      }
+    }
+  },
+  {
+    "id": "312_ger_spain_4_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Тоби АЛЬФРЕД ВЕРНЕР",
+      "is_home": true,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 7,
+          "type": "normal"
+        },
+        {
+          "name": "L. SANÉ",
+          "minute": 55,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 64,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 54,
+        "shots": 15,
+        "shots_on_target": 11,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 5,
+        "total_passes": 193,
+        "successful_passes": 158,
+        "crosses": 3,
+        "interceptions": 24,
+        "tackles": 3,
+        "saves": 6
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 46,
+        "shots": 11,
+        "shots_on_target": 6,
+        "fouls": 6,
+        "offsides": 0,
+        "corners": 4,
+        "free_kicks": 1,
+        "total_passes": 167,
+        "successful_passes": 132,
+        "crosses": 1,
+        "interceptions": 25,
+        "tackles": 4,
+        "saves": 7
+      }
+    }
+  },
+  {
+    "id": "313_ger_spain_2_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 84,
+          "type": "normal"
+        },
+        {
+          "name": "L. SANÉ",
+          "minute": 90,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 57,
+        "shots": 14,
+        "shots_on_target": 8,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 11,
+        "total_passes": 221,
+        "successful_passes": 181,
+        "crosses": 7,
+        "interceptions": 19,
+        "tackles": 4,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 47,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 43,
+        "shots": 13,
+        "shots_on_target": 2,
+        "fouls": 12,
+        "offsides": 1,
+        "corners": 0,
+        "free_kicks": 3,
+        "total_passes": 162,
+        "successful_passes": 133,
+        "crosses": 2,
+        "interceptions": 21,
+        "tackles": 6,
+        "saves": 5
+      }
+    }
+  },
+  {
+    "id": "314_ger_spain_6_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 6,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 7,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 26,
+          "type": "normal"
+        },
+        {
+          "name": "T. KROOS",
+          "minute": 30,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 54,
+        "shots": 20,
+        "shots_on_target": 11,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 4,
+        "free_kicks": 10,
+        "total_passes": 188,
+        "successful_passes": 150,
+        "crosses": 7,
+        "interceptions": 24,
+        "tackles": 6,
+        "saves": 5
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 60,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 46,
+        "shots": 11,
+        "shots_on_target": 4,
+        "fouls": 10,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 1,
+        "total_passes": 169,
+        "successful_passes": 137,
+        "crosses": 3,
+        "interceptions": 26,
+        "tackles": 7,
+        "saves": 7
+      }
+    }
+  },
+  {
+    "id": "315_ger_spain_0_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 56,
+        "shots": 10,
+        "shots_on_target": 5,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 9,
+        "free_kicks": 9,
+        "total_passes": 284,
+        "successful_passes": 221,
+        "crosses": 21,
+        "interceptions": 33,
+        "tackles": 2,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 44,
+        "shots": 8,
+        "shots_on_target": 4,
+        "fouls": 10,
+        "offsides": 1,
+        "corners": 2,
+        "free_kicks": 2,
+        "total_passes": 198,
+        "successful_passes": 147,
+        "crosses": 5,
+        "interceptions": 35,
+        "tackles": 6,
+        "saves": 4
+      }
+    }
+  },
+  {
+    "id": "316_ger_spain_2_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. MÜLLER",
+          "minute": 37,
+          "type": "normal"
+        },
+        {
+          "name": "L. SANÉ",
+          "minute": 69,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 58,
+        "shots": 12,
+        "shots_on_target": 6,
+        "fouls": 3,
+        "offsides": 1,
+        "corners": 5,
+        "free_kicks": 2,
+        "total_passes": 202,
+        "successful_passes": 171,
+        "crosses": 11,
+        "interceptions": 19,
+        "tackles": 4,
+        "saves": 2
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 50,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 42,
+        "shots": 5,
+        "shots_on_target": 3,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 3,
+        "total_passes": 148,
+        "successful_passes": 118,
+        "crosses": 1,
+        "interceptions": 16,
+        "tackles": 3,
+        "saves": 4
+      }
+    }
+  },
+  {
+    "id": "317_ger_spain_4_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 19,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 30,
+          "type": "normal"
+        },
+        {
+          "name": "T. MÜLLER",
+          "minute": 41,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 52,
+        "shots": 15,
+        "shots_on_target": 7,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 4,
+        "total_passes": 161,
+        "successful_passes": 128,
+        "crosses": 7,
+        "interceptions": 21,
+        "tackles": 1,
+        "saves": 6
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 59,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 48,
+        "shots": 12,
+        "shots_on_target": 7,
+        "fouls": 4,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 3,
+        "total_passes": 170,
+        "successful_passes": 133,
+        "crosses": 6,
+        "interceptions": 13,
+        "tackles": 3,
+        "saves": 7
+      }
+    }
+  },
+  {
+    "id": "318_ger_spain_2_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 1,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 93,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 53,
+        "shots": 13,
+        "shots_on_target": 9,
+        "fouls": 5,
+        "offsides": 3,
+        "corners": 6,
+        "free_kicks": 4,
+        "total_passes": 237,
+        "successful_passes": 185,
+        "crosses": 11,
+        "interceptions": 27,
+        "tackles": 4,
+        "saves": 5
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 23,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 47,
+        "shots": 18,
+        "shots_on_target": 9,
+        "fouls": 4,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 5,
+        "total_passes": 235,
+        "successful_passes": 194,
+        "crosses": 4,
+        "interceptions": 31,
+        "tackles": 9,
+        "saves": 4
+      }
+    }
+  },
+  {
+    "id": "319_ger_spain_4_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "T. MÜLLER",
+          "minute": 8,
+          "type": "normal"
+        },
+        {
+          "name": "T. KROOS",
+          "minute": 53,
+          "type": "normal"
+        },
+        {
+          "name": "L. SANÉ",
+          "minute": 83,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 54,
+        "shots": 15,
+        "shots_on_target": 9,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 5,
+        "free_kicks": 8,
+        "total_passes": 197,
+        "successful_passes": 161,
+        "crosses": 7,
+        "interceptions": 28,
+        "tackles": 5,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "PORTU",
+          "minute": 75,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 46,
+        "shots": 7,
+        "shots_on_target": 5,
+        "fouls": 8,
+        "offsides": 2,
+        "corners": 2,
+        "free_kicks": 2,
+        "total_passes": 184,
+        "successful_passes": 138,
+        "crosses": 6,
+        "interceptions": 27,
+        "tackles": 7,
+        "saves": 6
+      }
+    }
+  },
+  {
+    "id": "320_spain_ger_1_4_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 20,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 91,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 46,
+        "shots": 17,
+        "shots_on_target": 9,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 4,
+        "free_kicks": 2,
+        "total_passes": 178,
+        "successful_passes": 147,
+        "crosses": 11,
+        "interceptions": 27,
+        "tackles": 3,
+        "saves": 2
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 14,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 54,
+        "shots": 7,
+        "shots_on_target": 2,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 0,
+        "free_kicks": 1,
+        "total_passes": 181,
+        "successful_passes": 136,
+        "crosses": 4,
+        "interceptions": 22,
+        "tackles": 7,
+        "saves": 6
+      }
+    }
+  },
+  {
+    "id": "321_ger_spain_3_3_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 21,
+          "type": "normal"
+        },
+        {
+          "name": "Marco REUS",
+          "minute": 99,
+          "type": "normal"
+        },
+        {
+          "name": "Niclas FÜLLKRUG",
+          "minute": 120,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 58,
+        "shots": 16,
+        "shots_on_target": 8,
+        "fouls": 4,
+        "offsides": 2,
+        "corners": 2,
+        "free_kicks": 2,
+        "total_passes": 281,
+        "successful_passes": 235,
+        "crosses": 8,
+        "interceptions": 35,
+        "tackles": 3,
+        "saves": 2
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 67,
+          "type": "normal"
+        },
+        {
+          "name": "MORATA",
+          "minute": 105,
+          "type": "normal"
+        },
+        {
+          "name": "MARCOS LLORENTE",
+          "minute": 117,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 42,
+        "shots": 9,
+        "shots_on_target": 5,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 4,
+        "free_kicks": 4,
+        "total_passes": 205,
+        "successful_passes": 154,
+        "crosses": 1,
+        "interceptions": 26,
+        "tackles": 8,
+        "saves": 3
+      }
+    }
+  },
+  {
+    "id": "322_ger_spain_2_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "L. SANÉ",
+          "minute": 10,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 54,
+        "shots": 12,
+        "shots_on_target": 7,
+        "fouls": 0,
+        "offsides": 0,
+        "corners": 4,
+        "free_kicks": 1,
+        "total_passes": 202,
+        "successful_passes": 174,
+        "crosses": 3,
+        "interceptions": 25,
+        "tackles": 3,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 46,
+        "shots": 4,
+        "shots_on_target": 3,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 0,
+        "total_passes": 174,
+        "successful_passes": 142,
+        "crosses": 2,
+        "interceptions": 14,
+        "tackles": 5,
+        "saves": 7
+      }
+    }
+  },
+  {
+    "id": "323_ger_spain_1_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "S. GNABRY",
+          "minute": 19,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 58,
+        "shots": 5,
+        "shots_on_target": 4,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 3,
+        "total_passes": 192,
+        "successful_passes": 154,
+        "crosses": 9,
+        "interceptions": 22,
+        "tackles": 2,
+        "saves": 6
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 66,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 42,
+        "shots": 11,
+        "shots_on_target": 7,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 2,
+        "total_passes": 156,
+        "successful_passes": 117,
+        "crosses": 8,
+        "interceptions": 27,
+        "tackles": 4,
+        "saves": 2
+      }
+    }
+  },
+  {
+    "id": "324_ger_spain_3_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 13,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 57,
+          "type": "normal"
+        },
+        {
+          "name": "T. MÜLLER",
+          "minute": 71,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 55,
+        "shots": 10,
+        "shots_on_target": 6,
+        "fouls": 4,
+        "offsides": 0,
+        "corners": 4,
+        "free_kicks": 2,
+        "total_passes": 206,
+        "successful_passes": 173,
+        "crosses": 6,
+        "interceptions": 19,
+        "tackles": 5,
+        "saves": 5
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 45,
+        "shots": 15,
+        "shots_on_target": 8,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 4,
+        "free_kicks": 4,
+        "total_passes": 168,
+        "successful_passes": 131,
+        "crosses": 3,
+        "interceptions": 21,
+        "tackles": 9,
+        "saves": 2
+      }
+    }
+  },
+  {
+    "id": "325_ger_spain_3_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 6,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 9,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 38,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 48,
+        "shots": 18,
+        "shots_on_target": 12,
+        "fouls": 4,
+        "offsides": 2,
+        "corners": 3,
+        "free_kicks": 9,
+        "total_passes": 158,
+        "successful_passes": 129,
+        "crosses": 5,
+        "interceptions": 22,
+        "tackles": 6,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "RODRI",
+          "minute": 36,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 52,
+        "shots": 9,
+        "shots_on_target": 6,
+        "fouls": 10,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 4,
+        "total_passes": 175,
+        "successful_passes": 137,
+        "crosses": 2,
+        "interceptions": 20,
+        "tackles": 5,
+        "saves": 7
+      }
+    }
+  },
+  {
+    "id": "326_ger_spain_4_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Т. ВЕРНЕР",
+      "is_home": true,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 6,
+          "type": "normal"
+        },
+        {
+          "name": "L. SANÉ",
+          "minute": 18,
+          "type": "normal"
+        },
+        {
+          "name": "L. SANé",
+          "minute": 45,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 51,
+        "shots": 14,
+        "shots_on_target": 11,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 6,
+        "total_passes": 186,
+        "successful_passes": 163,
+        "crosses": 6,
+        "interceptions": 15,
+        "tackles": 3,
+        "saves": 1
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 49,
+        "shots": 12,
+        "shots_on_target": 2,
+        "fouls": 6,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 2,
+        "total_passes": 176,
+        "successful_passes": 151,
+        "crosses": 5,
+        "interceptions": 15,
+        "tackles": 2,
+        "saves": 7
+      }
+    }
+  },
+  {
+    "id": "327_ger_spain_2_3_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 8,
+          "type": "normal"
+        },
+        {
+          "name": "T. MÜLLER",
+          "minute": 74,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 56,
+        "shots": 9,
+        "shots_on_target": 5,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 3,
+        "total_passes": 226,
+        "successful_passes": 186,
+        "crosses": 6,
+        "interceptions": 13,
+        "tackles": 4,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 13,
+          "type": "normal"
+        },
+        {
+          "name": "MORATA",
+          "minute": 19,
+          "type": "normal"
+        },
+        {
+          "name": "MORATA",
+          "minute": 45,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 44,
+        "shots": 10,
+        "shots_on_target": 7,
+        "fouls": 3,
+        "offsides": 2,
+        "corners": 1,
+        "free_kicks": 2,
+        "total_passes": 146,
+        "successful_passes": 123,
+        "crosses": 7,
+        "interceptions": 26,
+        "tackles": 6,
+        "saves": 3
+      }
+    }
+  },
+  {
+    "id": "328_ger_spain_4_2_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Эмиль",
+      "is_home": true,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "L. SANÉ",
+          "minute": 28,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 30,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 45,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 49,
+        "shots": 15,
+        "shots_on_target": 7,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 1,
+        "total_passes": 193,
+        "successful_passes": 158,
+        "crosses": 8,
+        "interceptions": 21,
+        "tackles": 6,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Фарид",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 51,
+          "type": "normal"
+        },
+        {
+          "name": "MORATA",
+          "minute": 89,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 51,
+        "shots": 11,
+        "shots_on_target": 7,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 3,
+        "total_passes": 182,
+        "successful_passes": 147,
+        "crosses": 2,
+        "interceptions": 22,
+        "tackles": 6,
+        "saves": 4
+      }
+    }
+  },
+  {
+    "id": "329_ger_spain_4_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Эмиль",
+      "is_home": true,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 27,
+          "type": "normal"
+        },
+        {
+          "name": "Автогол",
+          "minute": 55,
+          "type": "own_goal"
+        },
+        {
+          "name": "L. SANÉ",
+          "minute": 62,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 57,
+        "shots": 17,
+        "shots_on_target": 7,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 3,
+        "total_passes": 207,
+        "successful_passes": 170,
+        "crosses": 7,
+        "interceptions": 21,
+        "tackles": 5,
+        "saves": 7
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Фарид",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 75,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 43,
+        "shots": 14,
+        "shots_on_target": 8,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 1,
+        "total_passes": 150,
+        "successful_passes": 117,
+        "crosses": 3,
+        "interceptions": 22,
+        "tackles": 4,
+        "saves": 4
+      }
+    }
+  },
+  {
+    "id": "330_ger_spain_1_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 42,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 63,
+        "shots": 13,
+        "shots_on_target": 8,
+        "fouls": 0,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 2,
+        "total_passes": 235,
+        "successful_passes": 213,
+        "crosses": 6,
+        "interceptions": 20,
+        "tackles": 2,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 37,
+        "shots": 6,
+        "shots_on_target": 3,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 1,
+        "free_kicks": 0,
+        "total_passes": 125,
+        "successful_passes": 96,
+        "crosses": 5,
+        "interceptions": 14,
+        "tackles": 5,
+        "saves": 7
+      }
+    }
+  },
+  {
+    "id": "331_ger_spain_1_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "J. KIMMICH",
+          "minute": 25,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 50,
+        "shots": 11,
+        "shots_on_target": 5,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 4,
+        "total_passes": 179,
+        "successful_passes": 151,
+        "crosses": 7,
+        "interceptions": 23,
+        "tackles": 1,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 19,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 50,
+        "shots": 8,
+        "shots_on_target": 4,
+        "fouls": 4,
+        "offsides": 0,
+        "corners": 0,
+        "free_kicks": 1,
+        "total_passes": 175,
+        "successful_passes": 142,
+        "crosses": 5,
+        "interceptions": 21,
+        "tackles": 4,
+        "saves": 3
+      }
+    }
+  },
+  {
+    "id": "332_ger_spain_2_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. MÜLLER",
+          "minute": 3,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 21,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 60,
+        "shots": 17,
+        "shots_on_target": 11,
+        "fouls": 0,
+        "offsides": 0,
+        "corners": 7,
+        "free_kicks": 1,
+        "total_passes": 220,
+        "successful_passes": 179,
+        "crosses": 5,
+        "interceptions": 21,
+        "tackles": 3,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "SAÚL",
+          "minute": 36,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 40,
+        "shots": 8,
+        "shots_on_target": 5,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 0,
+        "free_kicks": 0,
+        "total_passes": 142,
+        "successful_passes": 115,
+        "crosses": 1,
+        "interceptions": 20,
+        "tackles": 4,
+        "saves": 8
+      }
+    }
+  },
+  {
+    "id": "333_ger_spain_3_3_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 8,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 20,
+          "type": "normal"
+        },
+        {
+          "name": "T. KROOS",
+          "minute": 86,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 59,
+        "shots": 14,
+        "shots_on_target": 8,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 4,
+        "total_passes": 221,
+        "successful_passes": 191,
+        "crosses": 12,
+        "interceptions": 16,
+        "tackles": 2,
+        "saves": 5
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "PORTU",
+          "minute": 16,
+          "type": "normal"
+        },
+        {
+          "name": "ANSU FATI",
+          "minute": 21,
+          "type": "normal"
+        },
+        {
+          "name": "PORTU",
+          "minute": 63,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 41,
+        "shots": 15,
+        "shots_on_target": 11,
+        "fouls": 4,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 1,
+        "total_passes": 162,
+        "successful_passes": 127,
+        "crosses": 5,
+        "interceptions": 15,
+        "tackles": 6,
+        "saves": 2
+      }
+    }
+  },
+  {
+    "id": "334_ger_spain_4_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 52,
+          "type": "normal"
+        },
+        {
+          "name": "L. SANÉ",
+          "minute": 73,
+          "type": "normal"
+        },
+        {
+          "name": "K. BELLARABI",
+          "minute": 88,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 53,
+        "shots": 6,
+        "shots_on_target": 4,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 7,
+        "free_kicks": 3,
+        "total_passes": 201,
+        "successful_passes": 167,
+        "crosses": 9,
+        "interceptions": 13,
+        "tackles": 3,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 43,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 47,
+        "shots": 10,
+        "shots_on_target": 5,
+        "fouls": 3,
+        "offsides": 1,
+        "corners": 2,
+        "free_kicks": 1,
+        "total_passes": 165,
+        "successful_passes": 141,
+        "crosses": 5,
+        "interceptions": 18,
+        "tackles": 4,
+        "saves": 1
+      }
+    }
+  },
+  {
+    "id": "335_ger_spain_3_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 9,
+          "type": "normal"
+        },
+        {
+          "name": "Marco REUS",
+          "minute": 11,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 90,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 55,
+        "shots": 9,
+        "shots_on_target": 6,
+        "fouls": 3,
+        "offsides": 2,
+        "corners": 2,
+        "free_kicks": 6,
+        "total_passes": 190,
+        "successful_passes": 161,
+        "crosses": 10,
+        "interceptions": 17,
+        "tackles": 2,
+        "saves": 5
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 45,
+        "shots": 13,
+        "shots_on_target": 6,
+        "fouls": 8,
+        "offsides": 1,
+        "corners": 4,
+        "free_kicks": 3,
+        "total_passes": 165,
+        "successful_passes": 126,
+        "crosses": 6,
+        "interceptions": 16,
+        "tackles": 3,
+        "saves": 3
+      }
+    }
+  },
+  {
+    "id": "336_ger_spain_2_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 10,
+          "type": "normal"
+        },
+        {
+          "name": "S. GNABRY",
+          "minute": 28,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 62,
+        "shots": 11,
+        "shots_on_target": 6,
+        "fouls": 4,
+        "offsides": 0,
+        "corners": 7,
+        "free_kicks": 5,
+        "total_passes": 237,
+        "successful_passes": 202,
+        "crosses": 13,
+        "interceptions": 19,
+        "tackles": 1,
+        "saves": 1
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 53,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 38,
+        "shots": 5,
+        "shots_on_target": 3,
+        "fouls": 6,
+        "offsides": 2,
+        "corners": 2,
+        "free_kicks": 4,
+        "total_passes": 135,
+        "successful_passes": 95,
+        "crosses": 7,
+        "interceptions": 22,
+        "tackles": 4,
+        "saves": 3
+      }
+    }
+  },
+  {
+    "id": "337_ger_spain_2_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "L. SANÉ",
+          "minute": 38,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 44,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 55,
+        "shots": 11,
+        "shots_on_target": 9,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 4,
+        "free_kicks": 7,
+        "total_passes": 216,
+        "successful_passes": 178,
+        "crosses": 9,
+        "interceptions": 17,
+        "tackles": 3,
+        "saves": 2
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "THIAGO",
+          "minute": 88,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 45,
+        "shots": 10,
+        "shots_on_target": 2,
+        "fouls": 7,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 3,
+        "total_passes": 143,
+        "successful_passes": 112,
+        "crosses": 5,
+        "interceptions": 22,
+        "tackles": 4,
+        "saves": 6
+      }
+    }
+  },
+  {
+    "id": "338_ger_spain_3_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 67,
+          "type": "normal"
+        },
+        {
+          "name": "K. BELLARABI",
+          "minute": 90,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 51,
+        "shots": 11,
+        "shots_on_target": 6,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 12,
+        "free_kicks": 8,
+        "total_passes": 205,
+        "successful_passes": 164,
+        "crosses": 10,
+        "interceptions": 18,
+        "tackles": 4,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "Автогол",
+          "minute": 61,
+          "type": "own_goal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 49,
+        "shots": 4,
+        "shots_on_target": 1,
+        "fouls": 9,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 1,
+        "total_passes": 158,
+        "successful_passes": 124,
+        "crosses": 6,
+        "interceptions": 25,
+        "tackles": 3,
+        "saves": 1
+      }
+    }
+  },
+  {
+    "id": "339_ger_spain_2_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "T. WERNER",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 51,
+          "type": "normal"
+        },
+        {
+          "name": "Автогол",
+          "minute": 89,
+          "type": "own_goal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 54,
+        "shots": 10,
+        "shots_on_target": 3,
+        "fouls": 0,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 7,
+        "total_passes": 205,
+        "successful_passes": 169,
+        "crosses": 7,
+        "interceptions": 18,
+        "tackles": 3,
+        "saves": 5
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 46,
+        "shots": 10,
+        "shots_on_target": 5,
+        "fouls": 6,
+        "offsides": 0,
+        "corners": 6,
+        "free_kicks": 0,
+        "total_passes": 164,
+        "successful_passes": 130,
+        "crosses": 3,
+        "interceptions": 21,
+        "tackles": 6,
+        "saves": 3
+      }
+    }
+  },
+  {
+    "id": "340_ger_spain_3_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Niclas FÜLLKRUG",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "N. FÜLLKRUG",
+          "minute": 94,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 56,
+        "shots": 9,
+        "shots_on_target": 6,
+        "fouls": 6,
+        "offsides": 0,
+        "corners": 5,
+        "free_kicks": 3,
+        "total_passes": 204,
+        "successful_passes": 162,
+        "crosses": 7,
+        "interceptions": 30,
+        "tackles": 4,
+        "saves": 5
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 44,
+        "shots": 5,
+        "shots_on_target": 4,
+        "fouls": 4,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 6,
+        "total_passes": 189,
+        "successful_passes": 144,
+        "crosses": 3,
+        "interceptions": 26,
+        "tackles": 2,
+        "saves": 1
+      }
+    }
+  },
+  {
+    "id": "341_ger_spain_2_2_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 16,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 71,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 52,
+        "shots": 11,
+        "shots_on_target": 8,
+        "fouls": 1,
+        "offsides": 1,
+        "corners": 5,
+        "free_kicks": 7,
+        "total_passes": 199,
+        "successful_passes": 162,
+        "crosses": 5,
+        "interceptions": 21,
+        "tackles": 1,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "ADAMA TRAORÉ",
+          "minute": 20,
+          "type": "normal"
+        },
+        {
+          "name": "MARCOS LLORENTE",
+          "minute": 62,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 48,
+        "shots": 9,
+        "shots_on_target": 6,
+        "fouls": 7,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 1,
+        "total_passes": 183,
+        "successful_passes": 147,
+        "crosses": 5,
+        "interceptions": 22,
+        "tackles": 6,
+        "saves": 5
+      }
+    }
+  },
+  {
+    "id": "342_ger_spain_6_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 6,
+      "scorers": [
+        {
+          "name": "L. SANE",
+          "minute": 68,
+          "type": "normal"
+        },
+        {
+          "name": "S. GNABRY",
+          "minute": 75,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 77,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 89,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 53,
+        "shots": 13,
+        "shots_on_target": 8,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 0,
+        "free_kicks": 3,
+        "total_passes": 200,
+        "successful_passes": 174,
+        "crosses": 8,
+        "interceptions": 22,
+        "tackles": 9,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 47,
+        "shots": 8,
+        "shots_on_target": 3,
+        "fouls": 5,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 2,
+        "total_passes": 160,
+        "successful_passes": 131,
+        "crosses": 4,
+        "interceptions": 19,
+        "tackles": 6,
+        "saves": 2
+      }
+    }
+  },
+  {
+    "id": "343_ger_spain_0_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 56,
+        "shots": 6,
+        "shots_on_target": 4,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 6,
+        "free_kicks": 4,
+        "total_passes": 200,
+        "successful_passes": 162,
+        "crosses": 10,
+        "interceptions": 21,
+        "tackles": 8,
+        "saves": 1
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 54,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 44,
+        "shots": 7,
+        "shots_on_target": 2,
+        "fouls": 4,
+        "offsides": 1,
+        "corners": 2,
+        "free_kicks": 1,
+        "total_passes": 160,
+        "successful_passes": 125,
+        "crosses": 7,
+        "interceptions": 24,
+        "tackles": 7,
+        "saves": 3
+      }
+    }
+  },
+  {
+    "id": "344_ger_spain_0_1_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 60,
+        "shots": 3,
+        "shots_on_target": 1,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 5,
+        "total_passes": 228,
+        "successful_passes": 190,
+        "crosses": 6,
+        "interceptions": 24,
+        "tackles": 4,
+        "saves": 1
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 18,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 40,
+        "shots": 4,
+        "shots_on_target": 2,
+        "fouls": 5,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 1,
+        "total_passes": 135,
+        "successful_passes": 102,
+        "crosses": 4,
+        "interceptions": 22,
+        "tackles": 6,
+        "saves": 0
+      }
+    }
+  },
+  {
+    "id": "345_spain_ger_2_2_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 15,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 55,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 50,
+        "shots": 4,
+        "shots_on_target": 3,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 7,
+        "total_passes": 195,
+        "successful_passes": 151,
+        "crosses": 8,
+        "interceptions": 22,
+        "tackles": 6,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "PORTU",
+          "minute": 12,
+          "type": "normal"
+        },
+        {
+          "name": "MORATA",
+          "minute": 37,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 50,
+        "shots": 10,
+        "shots_on_target": 5,
+        "fouls": 6,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 4,
+        "total_passes": 181,
+        "successful_passes": 145,
+        "crosses": 4,
+        "interceptions": 29,
+        "tackles": 4,
+        "saves": 1
+      }
+    }
+  },
+  {
+    "id": "346_ger_spain_1_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Marco REUS",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "Marco REUS",
+          "minute": 24,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 57,
+        "shots": 12,
+        "shots_on_target": 10,
+        "fouls": 3,
+        "offsides": 1,
+        "corners": 3,
+        "free_kicks": 10,
+        "total_passes": 211,
+        "successful_passes": 180,
+        "crosses": 12,
+        "interceptions": 25,
+        "tackles": 0,
+        "saves": 2
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 43,
+        "shots": 5,
+        "shots_on_target": 3,
+        "fouls": 9,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 3,
+        "total_passes": 148,
+        "successful_passes": 113,
+        "crosses": 1,
+        "interceptions": 18,
+        "tackles": 5,
+        "saves": 4
+      }
+    }
+  },
+  {
+    "id": "347_ger_spain_2_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "Marco REUS",
+          "minute": 55,
+          "type": "normal"
+        },
+        {
+          "name": "Marco REUS",
+          "minute": 63,
+          "type": "own_goal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 54,
+        "shots": 7,
+        "shots_on_target": 3,
+        "fouls": 0,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 2,
+        "total_passes": 184,
+        "successful_passes": 158,
+        "crosses": 2,
+        "interceptions": 19,
+        "tackles": 5,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 46,
+        "shots": 10,
+        "shots_on_target": 5,
+        "fouls": 4,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 0,
+        "total_passes": 150,
+        "successful_passes": 115,
+        "crosses": 4,
+        "interceptions": 9,
+        "tackles": 2,
+        "saves": 2
+      }
+    }
+  },
+  {
+    "id": "348_ger_spain_1_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "S. GNABRY",
+          "minute": 14,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 52,
+        "shots": 12,
+        "shots_on_target": 6,
+        "fouls": 3,
+        "offsides": 1,
+        "corners": 2,
+        "free_kicks": 6,
+        "total_passes": 170,
+        "successful_passes": 144,
+        "crosses": 3,
+        "interceptions": 18,
+        "tackles": 2,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 48,
+        "shots": 10,
+        "shots_on_target": 6,
+        "fouls": 6,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 3,
+        "total_passes": 178,
+        "successful_passes": 146,
+        "crosses": 4,
+        "interceptions": 17,
+        "tackles": 8,
+        "saves": 2
+      }
+    }
+  },
+  {
+    "id": "349_ger_spain_1_0_27-05-2026",
+    "date": "27.05.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Тобиас ВERNER",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 77,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 58,
+        "shots": 14,
+        "shots_on_target": 9,
+        "fouls": 6,
+        "offsides": 2,
+        "corners": 4,
+        "free_kicks": 5,
+        "total_passes": 203,
+        "successful_passes": 173,
+        "crosses": 6,
+        "interceptions": 20,
+        "tackles": 2,
+        "saves": 2
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 42,
+        "shots": 6,
+        "shots_on_target": 3,
+        "fouls": 6,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 6,
+        "total_passes": 153,
+        "successful_passes": 107,
+        "crosses": 8,
+        "interceptions": 18,
+        "tackles": 5,
+        "saves": 7
+      }
+    }
   }
 ]
