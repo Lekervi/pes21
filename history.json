@@ -32480,5 +32480,75 @@
         "saves": 5
       }
     }
+  },
+  {
+    "id": "500_ger_spain_3_4_13-06-2026",
+    "date": "13.06.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "K. BELLARABI",
+          "minute": 34,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 56,
+        "shots": 10,
+        "shots_on_target": 6,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 1,
+        "total_passes": 199,
+        "successful_passes": 159,
+        "crosses": 10,
+        "interceptions": 26,
+        "tackles": 1,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 37,
+          "type": "normal"
+        },
+        {
+          "name": "LAMINE YAMAL",
+          "minute": 54,
+          "type": "normal"
+        },
+        {
+          "name": "MORATA",
+          "minute": 58,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 44,
+        "shots": 9,
+        "shots_on_target": 7,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 2,
+        "total_passes": 153,
+        "successful_passes": 113,
+        "crosses": 10,
+        "interceptions": 22,
+        "tackles": 5,
+        "saves": 4
+      }
+    }
   }
 ]
