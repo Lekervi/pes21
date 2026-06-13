@@ -32550,5 +32550,70 @@
         "saves": 4
       }
     }
+  },
+  {
+    "id": "501_ger_spain_2_1_13-06-2026",
+    "date": "13.06.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 31,
+          "type": "normal"
+        },
+        {
+          "name": "K. BELLARABI",
+          "minute": 67,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 66,
+        "shots": 9,
+        "shots_on_target": 3,
+        "fouls": 2,
+        "offsides": 2,
+        "corners": 4,
+        "free_kicks": 4,
+        "total_passes": 222,
+        "successful_passes": 185,
+        "crosses": 7,
+        "interceptions": 21,
+        "tackles": 7,
+        "saves": 0
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 78,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 34,
+        "shots": 3,
+        "shots_on_target": 2,
+        "fouls": 4,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 2,
+        "total_passes": 126,
+        "successful_passes": 97,
+        "crosses": 3,
+        "interceptions": 17,
+        "tackles": 5,
+        "saves": 2
+      }
+    }
   }
 ]
