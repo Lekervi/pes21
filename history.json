@@ -32615,5 +32615,53 @@
         "saves": 2
       }
     }
+  },
+  {
+    "id": "502_ger_spain_0_0_13-06-2026",
+    "date": "13.06.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 60,
+        "shots": 14,
+        "shots_on_target": 7,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 4,
+        "free_kicks": 3,
+        "total_passes": 269,
+        "successful_passes": 225,
+        "crosses": 16,
+        "interceptions": 22,
+        "tackles": 4,
+        "saves": 6
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 40,
+        "shots": 10,
+        "shots_on_target": 5,
+        "fouls": 3,
+        "offsides": 2,
+        "corners": 3,
+        "free_kicks": 2,
+        "total_passes": 179,
+        "successful_passes": 139,
+        "crosses": 7,
+        "interceptions": 28,
+        "tackles": 3,
+        "saves": 4
+      }
+    }
   }
 ]
