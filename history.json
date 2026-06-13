@@ -32738,5 +32738,328 @@
         "saves": 3
       }
     }
+  },
+  {
+    "id": "504_ger_spain_2_0_13-06-2026",
+    "date": "13.06.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "Leroy SANÉ",
+          "minute": 120,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 58,
+        "shots": 20,
+        "shots_on_target": 10,
+        "fouls": 4,
+        "offsides": 1,
+        "corners": 4,
+        "free_kicks": 8,
+        "total_passes": 243,
+        "successful_passes": 205,
+        "crosses": 6,
+        "interceptions": 29,
+        "tackles": 5,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 42,
+        "shots": 8,
+        "shots_on_target": 3,
+        "fouls": 8,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 4,
+        "total_passes": 184,
+        "successful_passes": 136,
+        "crosses": 6,
+        "interceptions": 27,
+        "tackles": 7,
+        "saves": 5
+      }
+    }
+  },
+  {
+    "id": "505_ger_spain_2_1_13-06-2026",
+    "date": "13.06.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "Leroy SANÉ",
+          "minute": 5,
+          "type": "normal"
+        },
+        {
+          "name": "Serge GNABRY",
+          "minute": 85,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 55,
+        "shots": 3,
+        "shots_on_target": 2,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 0,
+        "free_kicks": 7,
+        "total_passes": 174,
+        "successful_passes": 139,
+        "crosses": 2,
+        "interceptions": 19,
+        "tackles": 3,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MIKEL OYARZABAL",
+          "minute": 90,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 45,
+        "shots": 7,
+        "shots_on_target": 4,
+        "fouls": 7,
+        "offsides": 2,
+        "corners": 2,
+        "free_kicks": 2,
+        "total_passes": 164,
+        "successful_passes": 124,
+        "crosses": 8,
+        "interceptions": 24,
+        "tackles": 3,
+        "saves": 0
+      }
+    }
+  },
+  {
+    "id": "506_ger_spain_2_3_13-06-2026",
+    "date": "13.06.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 40,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 45,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 54,
+        "shots": 8,
+        "shots_on_target": 4,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 3,
+        "total_passes": 187,
+        "successful_passes": 152,
+        "crosses": 9,
+        "interceptions": 27,
+        "tackles": 2,
+        "saves": 5
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "MIKEL OYARZABAL",
+          "minute": 62,
+          "type": "normal"
+        },
+        {
+          "name": "LAMINE YAMAL",
+          "minute": 71,
+          "type": "normal"
+        },
+        {
+          "name": "MIKEL OYARZABAL",
+          "minute": 75,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 46,
+        "shots": 12,
+        "shots_on_target": 9,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 3,
+        "total_passes": 180,
+        "successful_passes": 141,
+        "crosses": 5,
+        "interceptions": 27,
+        "tackles": 4,
+        "saves": 3
+      }
+    }
+  },
+  {
+    "id": "507_ger_spain_0_2_13-06-2026",
+    "date": "13.06.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 55,
+        "shots": 9,
+        "shots_on_target": 6,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 0,
+        "free_kicks": 3,
+        "total_passes": 185,
+        "successful_passes": 156,
+        "crosses": 4,
+        "interceptions": 23,
+        "tackles": 2,
+        "saves": 0
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "NICO WILLIAMS",
+          "minute": 6,
+          "type": "normal"
+        },
+        {
+          "name": "DANI OLMO",
+          "minute": 25,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 45,
+        "shots": 6,
+        "shots_on_target": 4,
+        "fouls": 3,
+        "offsides": 1,
+        "corners": 0,
+        "free_kicks": 1,
+        "total_passes": 165,
+        "successful_passes": 130,
+        "crosses": 3,
+        "interceptions": 19,
+        "tackles": 5,
+        "saves": 5
+      }
+    }
+  },
+  {
+    "id": "508_ger_spain_3_1_13-06-2026",
+    "date": "13.06.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 6,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 27,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 39,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 56,
+        "shots": 16,
+        "shots_on_target": 9,
+        "fouls": 0,
+        "offsides": 0,
+        "corners": 4,
+        "free_kicks": 9,
+        "total_passes": 185,
+        "successful_passes": 148,
+        "crosses": 3,
+        "interceptions": 23,
+        "tackles": 3,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "NICO WILLIAMS",
+          "minute": 70,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 44,
+        "shots": 10,
+        "shots_on_target": 6,
+        "fouls": 10,
+        "offsides": 1,
+        "corners": 1,
+        "free_kicks": 0,
+        "total_passes": 164,
+        "successful_passes": 129,
+        "crosses": 5,
+        "interceptions": 22,
+        "tackles": 3,
+        "saves": 5
+      }
+    }
   }
 ]
