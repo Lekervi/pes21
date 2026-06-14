@@ -33337,17 +33337,17 @@
       "scorers": [
         {
           "name": "S. GNABRY",
-          "minute": "45+3'",
+          "minute": 45,
           "type": "normal"
         },
         {
           "name": "T. MÜLLER",
-          "minute": "103'",
+          "minute": 103,
           "type": "normal"
         },
         {
           "name": "L. SANÉ",
-          "minute": "109'",
+          "minute": 109,
           "type": "normal"
         }
       ],
@@ -33375,17 +33375,17 @@
       "scorers": [
         {
           "name": "DANI OLMO",
-          "minute": "10'",
+          "minute": 10,
           "type": "normal"
         },
         {
           "name": "MORATA",
-          "minute": "69'",
+          "minute": 69,
           "type": "normal"
         },
         {
           "name": "ASENSIO",
-          "minute": "115'",
+          "minute": 115,
           "type": "normal"
         }
       ],
