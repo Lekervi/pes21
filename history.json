@@ -4,7 +4,7 @@
     "date": "22.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас ВERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -32,7 +32,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "ЛАМИН ЯМАЛ",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -3058,7 +3058,7 @@
     "date": "22.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "T. WERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -3118,7 +3118,7 @@
     "date": "22.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Томас Вернер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -4565,7 +4565,7 @@
     "date": "22.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "T. WERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 3,
       "scorers": [
@@ -4603,7 +4603,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "ADAMA TRAORÉ",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 4,
       "scorers": [
@@ -4920,7 +4920,7 @@
     "date": "22.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас Вернер",
+      "player": "Фарид",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -4948,7 +4948,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Кокке",
+      "player": "Эмиль",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -6049,7 +6049,7 @@
     "date": "22.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Томас Вернер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -6238,7 +6238,7 @@
     "date": "22.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Marco REUS",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -6266,7 +6266,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "MORATA",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 4,
       "scorers": [
@@ -6308,7 +6308,7 @@
     "date": "22.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Leroy SANÉ",
+      "player": "Фарид",
       "is_home": true,
       "goals": 3,
       "scorers": [
@@ -6346,7 +6346,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "MORATA",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 4,
       "scorers": [
@@ -7793,7 +7793,7 @@
     "date": "22.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас Вернер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -7826,7 +7826,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Мората",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 2,
       "scorers": [
@@ -9315,7 +9315,7 @@
     "date": "22.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Leroy SANÉ",
+      "player": "Фарид",
       "is_home": true,
       "goals": 3,
       "scorers": [
@@ -9353,7 +9353,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "MIKEL OYARZABAL",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -10812,7 +10812,7 @@
     "date": "22.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас Вернер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -10845,7 +10845,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Мората",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -11061,7 +11061,7 @@
     "date": "22.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -11089,7 +11089,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Мората",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -14658,7 +14658,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Jamal MUSIALA",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -15998,7 +15998,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас ВERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -16794,7 +16794,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -16822,7 +16822,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -18160,7 +18160,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас ВERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -18981,7 +18981,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тони Кроос",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -19035,7 +19035,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": false,
       "goals": 3,
       "scorers": [
@@ -19073,7 +19073,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -19658,7 +19658,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас Вернер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -19691,7 +19691,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Мората",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -19787,7 +19787,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тайлер Вирнер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 4,
       "scorers": [
@@ -20303,7 +20303,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тоби АЛЬФРЕД ВЕРНЕР",
+      "player": "Фарид",
       "is_home": true,
       "goals": 4,
       "scorers": [
@@ -20820,7 +20820,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": false,
       "goals": 4,
       "scorers": [
@@ -20853,7 +20853,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -21213,7 +21213,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Т. ВЕРНЕР",
+      "player": "Фарид",
       "is_home": true,
       "goals": 4,
       "scorers": [
@@ -21352,7 +21352,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 4,
       "scorers": [
@@ -21390,7 +21390,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 2,
       "scorers": [
@@ -21427,7 +21427,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 4,
       "scorers": [
@@ -21465,7 +21465,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -22085,7 +22085,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "T. WERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -22144,7 +22144,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Niclas FÜLLKRUG",
+      "player": "Фарид",
       "is_home": true,
       "goals": 3,
       "scorers": [
@@ -22515,7 +22515,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Marco REUS",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -22682,7 +22682,7 @@
     "date": "27.05.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас ВERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -23541,7 +23541,7 @@
     "date": "03.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "S. GNABRY",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -23574,7 +23574,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "ANSU FATI",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -23941,7 +23941,7 @@
     "date": "03.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас ВERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -24006,7 +24006,7 @@
     "date": "03.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -24039,7 +24039,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 0,
       "scorers": [],
@@ -24167,7 +24167,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "T. MÜLLER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -24195,7 +24195,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "MORATA",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 2,
       "scorers": [
@@ -25249,7 +25249,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": false,
       "goals": 2,
       "scorers": [
@@ -25282,7 +25282,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -26421,7 +26421,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тим Вирнер",
+      "player": "Фарид",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -26449,7 +26449,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Мората",
+      "player": "Эмиль",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -27141,7 +27141,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас Вернер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 8,
       "scorers": [
@@ -27179,7 +27179,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Родри",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -27625,7 +27625,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 4,
       "scorers": [
@@ -27653,7 +27653,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [],
@@ -27818,7 +27818,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Т. ВЕРНЕР",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -28011,7 +28011,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тони ВERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -28129,7 +28129,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 3,
       "scorers": [
@@ -28167,7 +28167,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -28199,7 +28199,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 0,
       "scorers": [],
@@ -28221,7 +28221,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -29166,7 +29166,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Томас Мюллер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -29194,7 +29194,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Эмиль Мората",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -29559,7 +29559,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Т. ВЕРНЕР",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -29587,7 +29587,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "МОРАТА",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 2,
       "scorers": [
@@ -29742,7 +29742,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": false,
       "goals": 0,
       "scorers": [],
@@ -29764,7 +29764,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -29801,7 +29801,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тони КРООС",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -29931,7 +29931,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 3,
       "scorers": [
@@ -29969,7 +29969,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 3,
       "scorers": [
@@ -30306,7 +30306,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 0,
       "scorers": [
@@ -30334,7 +30334,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 2,
       "scorers": [
@@ -30366,7 +30366,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тони Кросс",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -30431,7 +30431,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -30464,7 +30464,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -31146,7 +31146,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "S. GNABRY",
+      "player": "Фарид",
       "is_home": true,
       "goals": 5,
       "scorers": [
@@ -31529,7 +31529,7 @@
     "date": "10.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Томас Мюллер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -34003,7 +34003,7 @@
     "date": "14.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "T. WERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -34031,7 +34031,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "MORATA",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 3,
       "scorers": [
@@ -35082,7 +35082,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас Вернер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -35110,7 +35110,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Эмиль Мората",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 2,
       "scorers": [
@@ -35222,7 +35222,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "J. KIMMICH",
+      "player": "Фарид",
       "is_home": true,
       "goals": 3,
       "scorers": [
@@ -35695,7 +35695,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Marco Reus",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -35765,7 +35765,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас Вернер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -36789,7 +36789,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -36817,7 +36817,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -37097,7 +37097,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -37125,7 +37125,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -37157,7 +37157,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": false,
       "goals": 0,
       "scorers": [],
@@ -37179,7 +37179,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -37281,7 +37281,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -37309,7 +37309,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 1,
       "scorers": [
@@ -37948,7 +37948,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "S. GNABRY",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -37976,7 +37976,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "ADAMA TRAORÉ",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 2,
       "scorers": [
@@ -38283,7 +38283,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас ВERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 5,
       "scorers": [
@@ -38402,7 +38402,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас Вернер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -39053,7 +39053,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "S. GNABRY",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -39081,7 +39081,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "PORTU",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 2,
       "scorers": [
@@ -39512,7 +39512,7 @@
     "date": "25.06.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Эмиль",
+      "player": "Фарид",
       "is_home": true,
       "goals": 3,
       "scorers": [
@@ -39550,7 +39550,7 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "Фарид",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 3,
       "scorers": [
@@ -41321,7 +41321,7 @@
     "date": "31.07.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас Вернер",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -41666,7 +41666,7 @@
     "date": "24.08.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "Тобиас ВERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 2,
       "scorers": [
@@ -42822,7 +42822,7 @@
     "date": "24.08.2026",
     "team_1": {
       "name": "ГЕРМАНИЯ",
-      "player": "T. WERNER",
+      "player": "Фарид",
       "is_home": true,
       "goals": 1,
       "scorers": [
@@ -42850,15 +42850,21 @@
     },
     "team_2": {
       "name": "ИСПАНИЯ",
-      "player": "MORATA",
+      "player": "Эмиль",
       "is_home": false,
       "goals": 2,
       "scorers": [
         {
-          "name": "MORATA",
+          "name": "Автогол",
           "minute": 16,
           "type": "own_goal"
         }
+        {
+          "name": "MORATA",
+          "minute": 38,
+          "type": "normal"
+        }
+        
       ],
       "stats": {
         "possession_pct": 56,
