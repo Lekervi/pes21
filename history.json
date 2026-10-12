@@ -30309,13 +30309,7 @@
       "player": "Фарид",
       "is_home": true,
       "goals": 0,
-      "scorers": [
-        {
-          "name": "THIAGO",
-          "minute": 73,
-          "type": "own_goal"
-        }
-      ],
+      "scorers": [],
       "stats": {
         "possession_pct": 55,
         "shots": 6,
@@ -30342,6 +30336,11 @@
           "name": "MORATA",
           "minute": 27,
           "type": "normal"
+        },
+        {
+          "name": "Автогол",
+          "minute": 73,
+          "type": "own_goal"
         }
       ],
       "stats": {
