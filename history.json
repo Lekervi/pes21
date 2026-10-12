@@ -29738,65 +29738,6 @@
     }
   },
   {
-    "id": "458_spain_ger_2_0_10-06-2026",
-    "date": "10.06.2026",
-    "team_1": {
-      "name": "ГЕРМАНИЯ",
-      "player": "Фарид",
-      "is_home": false,
-      "goals": 0,
-      "scorers": [],
-      "stats": {
-        "possession_pct": 55,
-        "shots": 6,
-        "shots_on_target": 2,
-        "fouls": 1,
-        "offsides": 0,
-        "corners": 1,
-        "free_kicks": 3,
-        "total_passes": 188,
-        "successful_passes": 166,
-        "crosses": 4,
-        "interceptions": 15,
-        "tackles": 0,
-        "saves": 6
-      }
-    },
-    "team_2": {
-      "name": "ИСПАНИЯ",
-      "player": "Эмиль",
-      "is_home": true,
-      "goals": 2,
-      "scorers": [
-        {
-          "name": "MORATA",
-          "minute": 27,
-          "type": "normal"
-        },
-        {
-          "name": "THIAGO",
-          "minute": 73,
-          "type": "normal"
-        }
-      ],
-      "stats": {
-        "possession_pct": 45,
-        "shots": 9,
-        "shots_on_target": 7,
-        "fouls": 3,
-        "offsides": 1,
-        "corners": 1,
-        "free_kicks": 1,
-        "total_passes": 146,
-        "successful_passes": 119,
-        "crosses": 5,
-        "interceptions": 18,
-        "tackles": 4,
-        "saves": 2
-      }
-    }
-  },
-  {
     "id": "459_ger_spain_1_2_10-06-2026",
     "date": "10.06.2026",
     "team_1": {
