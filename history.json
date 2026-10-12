@@ -8970,9 +8970,9 @@
           "type": "normal"
         },
         {
-          "name": "N. WILLIAMS",
+          "name": "Автогол",
           "minute": 56,
-          "type": "normal"
+          "type": "own_goal"
         }
       ],
       "stats": {
