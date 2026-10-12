@@ -43048,5 +43048,80 @@
         "saves": 3
       }
     }
+  },
+  {
+    "id": "663_ger_spain_3_2_12-10-2026",
+    "date": "12.10.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "K. ADEYEMI",
+          "minute": 4,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 52,
+          "type": "normal"
+        },
+        {
+          "name": "Jamal MUSIALA",
+          "minute": 61,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 59,
+        "shots": 9,
+        "shots_on_target": 7,
+        "fouls": 3,
+        "offsides": 2,
+        "corners": 1,
+        "free_kicks": 5,
+        "total_passes": 210,
+        "successful_passes": 170,
+        "crosses": 8,
+        "interceptions": 31,
+        "tackles": 3,
+        "saves": 0
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "MIKEL OYARZABAL",
+          "minute": 50,
+          "type": "normal"
+        },
+        {
+          "name": "PEDRI",
+          "minute": 82,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 41,
+        "shots": 5,
+        "shots_on_target": 2,
+        "fouls": 5,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 3,
+        "total_passes": 152,
+        "successful_passes": 112,
+        "crosses": 4,
+        "interceptions": 25,
+        "tackles": 8,
+        "saves": 4
+      }
+    }
   }
 ]
