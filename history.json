@@ -44244,5 +44244,65 @@
         "saves": 3
       }
     }
+  },
+  {
+    "id": "679_ger_spain_1_1_16-10-2026",
+    "date": "16.10.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "L. SANÉ",
+          "minute": 65,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 55,
+        "shots": 7,
+        "shots_on_target": 4,
+        "fouls": 7,
+        "offsides": 2,
+        "corners": 5,
+        "free_kicks": 1,
+        "total_passes": 268,
+        "successful_passes": 214,
+        "crosses": 12,
+        "interceptions": 37,
+        "tackles": 4,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "F. TORRES",
+          "minute": 85,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 45,
+        "shots": 7,
+        "shots_on_target": 6,
+        "fouls": 1,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 7,
+        "total_passes": 207,
+        "successful_passes": 149,
+        "crosses": 8,
+        "interceptions": 35,
+        "tackles": 6,
+        "saves": 2
+      }
+    }
   }
 ]
