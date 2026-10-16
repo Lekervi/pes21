@@ -44304,5 +44304,70 @@
         "saves": 2
       }
     }
+  },
+  {
+    "id": "680_ger_spain_2_1_17-10-2026",
+    "date": "17.10.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 47,
+          "type": "normal"
+        },
+        {
+          "name": "N. FÜLLKRUG",
+          "minute": 86,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 55,
+        "shots": 12,
+        "shots_on_target": 4,
+        "fouls": 4,
+        "offsides": 0,
+        "corners": 6,
+        "free_kicks": 10,
+        "total_passes": 203,
+        "successful_passes": 164,
+        "crosses": 10,
+        "interceptions": 14,
+        "tackles": 3,
+        "saves": 5
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "A. LAPORTE",
+          "minute": 91,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 45,
+        "shots": 15,
+        "shots_on_target": 7,
+        "fouls": 10,
+        "offsides": 1,
+        "corners": 8,
+        "free_kicks": 4,
+        "total_passes": 177,
+        "successful_passes": 141,
+        "crosses": 5,
+        "interceptions": 23,
+        "tackles": 7,
+        "saves": 3
+      }
+    }
   }
 ]
