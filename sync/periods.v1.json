@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "matches": {
+    "680_ger_spain_2_1_17-10-2026": {
+      "input": "[[2,[[\"T. WERNER\",47,\"normal\"],[\"N. FÜLLKRUG\",86,\"normal\"]]],[1,[[\"A. LAPORTE\",91,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        null
+      ],
+      "team_2": [
+        null
+      ]
+    }
+  }
+}
