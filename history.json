@@ -7518,11 +7518,6 @@
           "name": "L. SANÉ",
           "minute": 121,
           "type": "normal"
-        },
-        {
-          "name": "T. MÜLLER",
-          "minute": 50,
-          "type": "normal"
         }
       ],
       "stats": {
@@ -8034,16 +8029,6 @@
         {
           "name": "L. GORETZKA",
           "minute": 93,
-          "type": "normal"
-        },
-        {
-          "name": "T. WERNER",
-          "minute": 45,
-          "type": "normal"
-        },
-        {
-          "name": "L. SANÉ",
-          "minute": 33,
           "type": "normal"
         }
       ],
@@ -12261,16 +12246,6 @@
         {
           "name": "S. GNABRY",
           "minute": 121,
-          "type": "normal"
-        },
-        {
-          "name": "T. WERNER",
-          "minute": 10,
-          "type": "normal"
-        },
-        {
-          "name": "L. SANÉ",
-          "minute": 22,
           "type": "normal"
         }
       ],
