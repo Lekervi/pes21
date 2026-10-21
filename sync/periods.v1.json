@@ -1013,6 +1013,86 @@
         "second"
       ],
       "team_2": []
+    },
+    "681_ger_spain_1_1_22-10-2026": {
+      "input": "[[1,[[\"L. SANÉ\",65,\"normal\"]]],[1,[[\"F. TORRES\",85,\"normal\"]]]]",
+      "team_1": [
+        "second"
+      ],
+      "team_2": [
+        "second"
+      ]
+    },
+    "682_ger_spain_3_0_22-10-2026": {
+      "input": "[[3,[[\"J. KIMMICH\",4,\"normal\"],[\"T. WERNER\",8,\"normal\"],[\"L. SANÉ\",18,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "first",
+        "first",
+        "first"
+      ],
+      "team_2": []
+    },
+    "683_ger_spain_0_1_22-10-2026": {
+      "input": "[[0,[]],[1,[[\"M. OYARZABAL\",95,\"normal\"]]]]",
+      "team_1": [],
+      "team_2": [
+        "extra_first"
+      ]
+    },
+    "684_ger_spain_3_2_22-10-2026": {
+      "input": "[[3,[[\"L. SANÉ\",7,\"normal\"],[\"L. SANÉ\",62,\"normal\"],[\"T. WERNER\",84,\"normal\"]]],[2,[[\"MORATA\",42,\"normal\"],[\"RODRI\",51,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "second",
+        "second"
+      ],
+      "team_2": [
+        "first",
+        "second"
+      ]
+    },
+    "685_ger_spain_0_2_22-10-2026": {
+      "input": "[[0,[[\"Автогол\",75,\"own_goal\"]]],[2,[[\"MORATA\",47,\"normal\"]]]]",
+      "team_1": [
+        "second"
+      ],
+      "team_2": [
+        "second"
+      ]
+    },
+    "686_ger_spain_2_1_22-10-2026": {
+      "input": "[[2,[[\"T. WERNER\",27,\"normal\"],[\"N. FÜLLKRUG\",89,\"normal\"]]],[1,[[\"MORATA\",9,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "second"
+      ],
+      "team_2": [
+        "first"
+      ]
+    },
+    "687_ger_spain_4_3_22-10-2026": {
+      "input": "[[4,[[\"L. SANÉ\",77,\"normal\"],[\"M. REUS\",89,\"normal\"],[\"N. FÜLLKRUG\",96,\"normal\"],[\"S. GNABRY\",104,\"normal\"]]],[3,[[\"MORATA\",10,\"normal\"],[\"L. YAMAL\",42,\"normal\"],[\"M. OYARZABAL\",121,\"normal\"]]]]",
+      "team_1": [
+        "second",
+        "second",
+        "extra_first",
+        "extra_first"
+      ],
+      "team_2": [
+        "first",
+        "first",
+        "extra_second"
+      ]
+    },
+    "688_ger_spain_2_1_22-10-2026": {
+      "input": "[[2,[[\"T. WERNER\",2,\"normal\"],[\"S. GNABRY\",34,\"normal\"]]],[1,[[\"MORATA\",55,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "first"
+      ],
+      "team_2": [
+        "second"
+      ]
     }
   }
 }
