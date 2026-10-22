@@ -1093,6 +1093,63 @@
       "team_2": [
         "second"
       ]
+    },
+    "689_ger_spain_1_0_22-10-2026": {
+      "input": "[[1,[[\"L. SANÉ\",43,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "first"
+      ],
+      "team_2": []
+    },
+    "690_ger_spain_4_1_22-10-2026": {
+      "input": "[[4,[[\"S. GNABRY\",29,\"normal\"],[\"L. SANÉ\",47,\"normal\"],[\"L. SANÉ\",49,\"normal\"],[\"L. SANÉ\",84,\"normal\"]]],[1,[[\"D. OLMO\",75,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "second",
+        "second",
+        "second"
+      ],
+      "team_2": [
+        "second"
+      ]
+    },
+    "691_ger_spain_2_1_22-10-2026": {
+      "input": "[[2,[[\"T. WERNER\",6,\"normal\"],[\"N. FÜLLKRUG\",111,\"normal\"]]],[1,[[\"N. WILLIAMS\",20,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "extra_second"
+      ],
+      "team_2": [
+        "first"
+      ]
+    },
+    "692_ger_spain_2_0_22-10-2026": {
+      "input": "[[2,[[\"S. GNABRY\",46,\"normal\"],[\"S. GNABRY\",74,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "first",
+        "second"
+      ],
+      "team_2": []
+    },
+    "693_ger_spain_4_0_22-10-2026": {
+      "input": "[[4,[[\"S. GNABRY\",28,\"normal\"],[\"S. GNABRY\",45,\"normal\"],[\"K. BELLARABI\",66,\"normal\"],[\"M. REUS\",85,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "first",
+        "first",
+        "second",
+        "second"
+      ],
+      "team_2": []
+    },
+    "694_ger_spain_1_2_22-10-2026": {
+      "input": "[[1,[[\"L. SANÉ\",39,\"normal\"],[\"Автогол\",92,\"own_goal\"]]],[2,[[\"MORATA\",120,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "second"
+      ],
+      "team_2": [
+        "extra_second"
+      ]
     }
   }
 }
