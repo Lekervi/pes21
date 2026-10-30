@@ -1150,6 +1150,79 @@
       "team_2": [
         "extra_second"
       ]
+    },
+    "695_ger_spain_3_0_30-10-2026": {
+      "input": "[[3,[[\"S. GNABRY\",26,\"normal\"],[\"L. SANÉ\",32,\"normal\"],[\"S. GNABRY\",37,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "first",
+        "first",
+        "first"
+      ],
+      "team_2": []
+    },
+    "696_ger_spain_1_0_30-10-2026": {
+      "input": "[[1,[[\"S. GNABRY\",65,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "second"
+      ],
+      "team_2": []
+    },
+    "697_ger_spain_2_1_30-10-2026": {
+      "input": "[[2,[[\"T. WERNER\",8,\"normal\"],[\"N. SCHULZ\",57,\"normal\"]]],[1,[[\"MORATA\",16,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "second"
+      ],
+      "team_2": [
+        "first"
+      ]
+    },
+    "698_ger_spain_1_4_30-10-2026": {
+      "input": "[[1,[[\"K. ADEYEMI\",34,\"normal\"]]],[4,[[\"L. YAMAL\",24,\"normal\"],[\"L. YAMAL\",26,\"normal\"],[\"MORATA\",58,\"normal\"],[\"Y. PINO\",69,\"normal\"]]]]",
+      "team_1": [
+        "first"
+      ],
+      "team_2": [
+        "first",
+        "first",
+        "second",
+        "second"
+      ]
+    },
+    "699_ger_spain_3_0_30-10-2026": {
+      "input": "[[3,[[\"N. FÜLLKRUG\",76,\"normal\"],[\"N. FÜLLKRUG\",88,\"normal\"],[\"M. REUS\",91,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "second",
+        "second",
+        "second"
+      ],
+      "team_2": []
+    },
+    "700_ger_spain_1_2_30-10-2026": {
+      "input": "[[1,[[\"M. REUS\",63,\"normal\"]]],[2,[[\"MORATA\",25,\"normal\"],[\"MORATA\",60,\"normal\"]]]]",
+      "team_1": [
+        "second"
+      ],
+      "team_2": [
+        "first",
+        "second"
+      ]
+    },
+    "701_ger_spain_0_2_30-10-2026": {
+      "input": "[[0,[]],[2,[[\"MORATA\",43,\"normal\"],[\"N. WILLIAMS\",89,\"normal\"]]]]",
+      "team_1": [],
+      "team_2": [
+        "first",
+        "second"
+      ]
+    },
+    "702_ger_spain_2_0_30-10-2026": {
+      "input": "[[2,[[\"K. BELLARABI\",31,\"normal\"],[\"T. WERNER\",66,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "first",
+        "second"
+      ],
+      "team_2": []
     }
   }
 }
