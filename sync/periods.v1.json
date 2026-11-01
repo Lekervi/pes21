@@ -1223,6 +1223,87 @@
         "second"
       ],
       "team_2": []
+    },
+    "703_ger_spain_4_3_02-11-2026": {
+      "input": "[[4,[[\"L. SANÉ\",17,\"normal\"],[\"S. GNABRY\",72,\"normal\"],[\"N. FÜLLKRUG\",88,\"normal\"],[\"S. GNABRY\",98,\"normal\"]]],[3,[[\"MORATA\",19,\"normal\"],[\"MORATA\",29,\"normal\"],[\"Y. PINO\",35,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "second",
+        "second",
+        "extra_first"
+      ],
+      "team_2": [
+        "first",
+        "first",
+        "first"
+      ]
+    },
+    "704_ger_spain_1_1_02-11-2026": {
+      "input": "[[1,[[\"L. SANÉ\",34,\"normal\"]]],[1,[[\"MORATA\",45,\"normal\"]]]]",
+      "team_1": [
+        "first"
+      ],
+      "team_2": [
+        "first"
+      ]
+    },
+    "705_ger_spain_3_2_02-11-2026": {
+      "input": "[[3,[[\"S. GNABRY\",13,\"normal\"],[\"N. FÜLLKRUG\",109,\"normal\"],[\"J. TAH\",121,\"normal\"]]],[2,[[\"MORATA\",8,\"normal\"],[\"N. WILLIAMS\",117,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "extra_second",
+        "extra_second"
+      ],
+      "team_2": [
+        "first",
+        "extra_second"
+      ]
+    },
+    "706_ger_spain_0_4_02-11-2026": {
+      "input": "[[0,[]],[4,[[\"N. WILLIAMS\",32,\"normal\"],[\"N. WILLIAMS\",56,\"normal\"],[\"MORATA\",65,\"normal\"],[\"N. WILLIAMS\",93,\"normal\"]]]]",
+      "team_1": [],
+      "team_2": [
+        "first",
+        "second",
+        "second",
+        "second"
+      ]
+    },
+    "707_ger_spain_1_0_02-11-2026": {
+      "input": "[[1,[[\"L. SANÉ\",62,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "second"
+      ],
+      "team_2": []
+    },
+    "708_ger_spain_3_0_02-11-2026": {
+      "input": "[[3,[[\"L. SANÉ\",10,\"normal\"],[\"T. WERNER\",24,\"normal\"],[\"S. GNABRY\",56,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "first",
+        "first",
+        "second"
+      ],
+      "team_2": []
+    },
+    "709_ger_spain_2_0_02-11-2026": {
+      "input": "[[2,[[\"S. GNABRY\",51,\"normal\"],[\"S. GNABRY\",74,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "second",
+        "second"
+      ],
+      "team_2": []
+    },
+    "710_ger_spain_2_3_02-11-2026": {
+      "input": "[[2,[[\"S. GNABRY\",94,\"normal\"],[\"T. WERNER\",49,\"normal\"]]],[3,[[\"F. TORRES\",39,\"normal\"],[\"MORATA\",51,\"normal\"],[\"M. OYARZABAL\",73,\"normal\"]]]]",
+      "team_1": [
+        "second",
+        "second"
+      ],
+      "team_2": [
+        "first",
+        "second",
+        "second"
+      ]
     }
   }
 }
