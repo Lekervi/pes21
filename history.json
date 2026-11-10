@@ -46250,5 +46250,698 @@
         "saves": 5
       }
     }
+  },
+  {
+    "id": "711_ger_spain_1_2_11-11-2026",
+    "date": "11.11.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "N. FÜLLKRUG",
+          "minute": 22,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 58,
+        "shots": 19,
+        "shots_on_target": 9,
+        "fouls": 3,
+        "offsides": 1,
+        "corners": 2,
+        "free_kicks": 3,
+        "total_passes": 231,
+        "successful_passes": 194,
+        "crosses": 7,
+        "interceptions": 30,
+        "tackles": 1,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "F. TORRES",
+          "minute": 62,
+          "type": "normal"
+        },
+        {
+          "name": "F. TORRES",
+          "minute": 90,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 42,
+        "shots": 6,
+        "shots_on_target": 4,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 3,
+        "total_passes": 135,
+        "successful_passes": 98,
+        "crosses": 0,
+        "interceptions": 23,
+        "tackles": 5,
+        "saves": 8
+      }
+    }
+  },
+  {
+    "id": "712_ger_spain_1_1_11-11-2026",
+    "date": "11.11.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "K. ADEYEMI",
+          "minute": 9,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 57,
+        "shots": 10,
+        "shots_on_target": 3,
+        "fouls": 4,
+        "offsides": 3,
+        "corners": 6,
+        "free_kicks": 3,
+        "total_passes": 281,
+        "successful_passes": 230,
+        "crosses": 12,
+        "interceptions": 25,
+        "tackles": 5,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "N. WILLIAMS",
+          "minute": 29,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 43,
+        "shots": 7,
+        "shots_on_target": 4,
+        "fouls": 3,
+        "offsides": 1,
+        "corners": 0,
+        "free_kicks": 4,
+        "total_passes": 187,
+        "successful_passes": 149,
+        "crosses": 2,
+        "interceptions": 30,
+        "tackles": 6,
+        "saves": 4
+      }
+    }
+  },
+  {
+    "id": "713_ger_spain_2_1_11-11-2026",
+    "date": "11.11.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "S. GNABRY",
+          "minute": 52,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 59,
+        "shots": 16,
+        "shots_on_target": 9,
+        "fouls": 3,
+        "offsides": 3,
+        "corners": 4,
+        "free_kicks": 8,
+        "total_passes": 214,
+        "successful_passes": 183,
+        "crosses": 7,
+        "interceptions": 16,
+        "tackles": 4,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "M. OYARZABAL",
+          "minute": 15,
+          "type": "normal"
+        },
+        {
+          "name": "Автогол",
+          "minute": 24,
+          "type": "own_goal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 41,
+        "shots": 13,
+        "shots_on_target": 6,
+        "fouls": 8,
+        "offsides": 0,
+        "corners": 5,
+        "free_kicks": 3,
+        "total_passes": 129,
+        "successful_passes": 94,
+        "crosses": 8,
+        "interceptions": 13,
+        "tackles": 7,
+        "saves": 6
+      }
+    }
+  },
+  {
+    "id": "714_ger_spain_6_0_11-11-2026",
+    "date": "11.11.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 6,
+      "scorers": [
+        {
+          "name": "L. SANÉ",
+          "minute": 47,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 54,
+          "type": "normal"
+        },
+        {
+          "name": "K. ADEYEMI",
+          "minute": 61,
+          "type": "normal"
+        },
+        {
+          "name": "L. SANÉ",
+          "minute": 67,
+          "type": "normal"
+        },
+        {
+          "name": "K. ADEYEMI",
+          "minute": 81,
+          "type": "normal"
+        },
+        {
+          "name": "K. ADEYEMI",
+          "minute": 87,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 59,
+        "shots": 22,
+        "shots_on_target": 13,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 6,
+        "free_kicks": 8,
+        "total_passes": 208,
+        "successful_passes": 169,
+        "crosses": 8,
+        "interceptions": 25,
+        "tackles": 3,
+        "saves": 9
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 41,
+        "shots": 12,
+        "shots_on_target": 6,
+        "fouls": 9,
+        "offsides": 1,
+        "corners": 5,
+        "free_kicks": 2,
+        "total_passes": 146,
+        "successful_passes": 103,
+        "crosses": 3,
+        "interceptions": 21,
+        "tackles": 6,
+        "saves": 8
+      }
+    }
+  },
+  {
+    "id": "715_ger_spain_3_1_11-11-2026",
+    "date": "11.11.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 22,
+          "type": "normal"
+        },
+        {
+          "name": "L. SANÉ",
+          "minute": 29,
+          "type": "normal"
+        },
+        {
+          "name": "S. GNABRY",
+          "minute": 76,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 52,
+        "shots": 10,
+        "shots_on_target": 7,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 2,
+        "free_kicks": 11,
+        "total_passes": 179,
+        "successful_passes": 140,
+        "crosses": 8,
+        "interceptions": 22,
+        "tackles": 4,
+        "saves": 5
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 7,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 48,
+        "shots": 9,
+        "shots_on_target": 8,
+        "fouls": 13,
+        "offsides": 1,
+        "corners": 0,
+        "free_kicks": 2,
+        "total_passes": 164,
+        "successful_passes": 129,
+        "crosses": 6,
+        "interceptions": 24,
+        "tackles": 5,
+        "saves": 4
+      }
+    }
+  },
+  {
+    "id": "716_ger_spain_3_2_11-11-2026",
+    "date": "11.11.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "T. WERNER",
+          "minute": 9,
+          "type": "normal"
+        },
+        {
+          "name": "L. KLOSTERMANN",
+          "minute": 21,
+          "type": "normal"
+        },
+        {
+          "name": "L. KLOSTERMANN",
+          "minute": 24,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 50,
+        "shots": 11,
+        "shots_on_target": 6,
+        "fouls": 3,
+        "offsides": 2,
+        "corners": 1,
+        "free_kicks": 4,
+        "total_passes": 161,
+        "successful_passes": 126,
+        "crosses": 8,
+        "interceptions": 24,
+        "tackles": 4,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "R. LE NORMAND",
+          "minute": 29,
+          "type": "normal"
+        },
+        {
+          "name": "Y. PINO",
+          "minute": 54,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 50,
+        "shots": 8,
+        "shots_on_target": 5,
+        "fouls": 5,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 3,
+        "total_passes": 193,
+        "successful_passes": 151,
+        "crosses": 4,
+        "interceptions": 22,
+        "tackles": 8,
+        "saves": 3
+      }
+    }
+  },
+  {
+    "id": "717_ger_spain_4_0_11-11-2026",
+    "date": "11.11.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "S. GNABRY",
+          "minute": 7,
+          "type": "normal"
+        },
+        {
+          "name": "T. WERNER",
+          "minute": 51,
+          "type": "normal"
+        },
+        {
+          "name": "M. WEISER",
+          "minute": 70,
+          "type": "normal"
+        },
+        {
+          "name": "K. ADEYEMI",
+          "minute": 94,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 52,
+        "shots": 13,
+        "shots_on_target": 9,
+        "fouls": 2,
+        "offsides": 1,
+        "corners": 7,
+        "free_kicks": 15,
+        "total_passes": 190,
+        "successful_passes": 146,
+        "crosses": 11,
+        "interceptions": 23,
+        "tackles": 7,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 0,
+      "scorers": [],
+      "stats": {
+        "possession_pct": 48,
+        "shots": 6,
+        "shots_on_target": 2,
+        "fouls": 16,
+        "offsides": 0,
+        "corners": 2,
+        "free_kicks": 2,
+        "total_passes": 155,
+        "successful_passes": 121,
+        "crosses": 3,
+        "interceptions": 16,
+        "tackles": 6,
+        "saves": 4
+      }
+    }
+  },
+  {
+    "id": "718_ger_spain_1_2_11-11-2026",
+    "date": "11.11.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "S. GNABRY",
+          "minute": 77,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 54,
+        "shots": 12,
+        "shots_on_target": 9,
+        "fouls": 4,
+        "offsides": 1,
+        "corners": 4,
+        "free_kicks": 1,
+        "total_passes": 201,
+        "successful_passes": 164,
+        "crosses": 11,
+        "interceptions": 24,
+        "tackles": 0,
+        "saves": 4
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 2,
+      "scorers": [
+        {
+          "name": "N. WILLIAMS",
+          "minute": 37,
+          "type": "normal"
+        },
+        {
+          "name": "M. OYARZABAL",
+          "minute": 81,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 46,
+        "shots": 11,
+        "shots_on_target": 7,
+        "fouls": 3,
+        "offsides": 1,
+        "corners": 0,
+        "free_kicks": 4,
+        "total_passes": 163,
+        "successful_passes": 134,
+        "crosses": 3,
+        "interceptions": 21,
+        "tackles": 5,
+        "saves": 7
+      }
+    }
+  },
+  {
+    "id": "719_ger_spain_4_1_11-11-2026",
+    "date": "11.11.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 4,
+      "scorers": [
+        {
+          "name": "L. SANÉ",
+          "minute": 4,
+          "type": "normal"
+        },
+        {
+          "name": "L. SANÉ",
+          "minute": 33,
+          "type": "normal"
+        },
+        {
+          "name": "K. ADEYEMI",
+          "minute": 69,
+          "type": "normal"
+        },
+        {
+          "name": "S. GNABRY",
+          "minute": 85,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 52,
+        "shots": 12,
+        "shots_on_target": 10,
+        "fouls": 2,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 5,
+        "total_passes": 176,
+        "successful_passes": 140,
+        "crosses": 6,
+        "interceptions": 26,
+        "tackles": 3,
+        "saves": 3
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "Y. PINO",
+          "minute": 18,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 48,
+        "shots": 14,
+        "shots_on_target": 5,
+        "fouls": 5,
+        "offsides": 0,
+        "corners": 3,
+        "free_kicks": 2,
+        "total_passes": 173,
+        "successful_passes": 132,
+        "crosses": 5,
+        "interceptions": 24,
+        "tackles": 10,
+        "saves": 3
+      }
+    }
+  },
+  {
+    "id": "720_ger_spain_3_1_11-11-2026",
+    "date": "11.11.2026",
+    "team_1": {
+      "name": "ГЕРМАНИЯ",
+      "player": "Фарид",
+      "is_home": true,
+      "goals": 3,
+      "scorers": [
+        {
+          "name": "J. MUSIALA",
+          "minute": 26,
+          "type": "normal"
+        },
+        {
+          "name": "M. WEISER",
+          "minute": 87,
+          "type": "normal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 52,
+        "shots": 10,
+        "shots_on_target": 5,
+        "fouls": 3,
+        "offsides": 0,
+        "corners": 1,
+        "free_kicks": 6,
+        "total_passes": 196,
+        "successful_passes": 157,
+        "crosses": 8,
+        "interceptions": 24,
+        "tackles": 5,
+        "saves": 10
+      }
+    },
+    "team_2": {
+      "name": "ИСПАНИЯ",
+      "player": "Эмиль",
+      "is_home": false,
+      "goals": 1,
+      "scorers": [
+        {
+          "name": "MORATA",
+          "minute": 39,
+          "type": "normal"
+        },
+        {
+          "name": "Автогол",
+          "minute": 12,
+          "type": "own_goal"
+        }
+      ],
+      "stats": {
+        "possession_pct": 48,
+        "shots": 15,
+        "shots_on_target": 10,
+        "fouls": 7,
+        "offsides": 0,
+        "corners": 8,
+        "free_kicks": 3,
+        "total_passes": 156,
+        "successful_passes": 118,
+        "crosses": 7,
+        "interceptions": 27,
+        "tackles": 6,
+        "saves": 3
+      }
+    }
   }
 ]

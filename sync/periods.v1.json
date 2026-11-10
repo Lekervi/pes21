@@ -1304,6 +1304,113 @@
         "second",
         "second"
       ]
+    },
+    "711_ger_spain_1_2_11-11-2026": {
+      "input": "[[1,[[\"N. FÜLLKRUG\",22,\"normal\"]]],[2,[[\"F. TORRES\",62,\"normal\"],[\"F. TORRES\",90,\"normal\"]]]]",
+      "team_1": [
+        "first"
+      ],
+      "team_2": [
+        "second",
+        "second"
+      ]
+    },
+    "712_ger_spain_1_1_11-11-2026": {
+      "input": "[[1,[[\"K. ADEYEMI\",9,\"normal\"]]],[1,[[\"N. WILLIAMS\",29,\"normal\"]]]]",
+      "team_1": [
+        "first"
+      ],
+      "team_2": [
+        "first"
+      ]
+    },
+    "713_ger_spain_2_1_11-11-2026": {
+      "input": "[[2,[[\"S. GNABRY\",52,\"normal\"]]],[1,[[\"M. OYARZABAL\",15,\"normal\"],[\"Автогол\",24,\"own_goal\"]]]]",
+      "team_1": [
+        "second"
+      ],
+      "team_2": [
+        "first",
+        "first"
+      ]
+    },
+    "714_ger_spain_6_0_11-11-2026": {
+      "input": "[[6,[[\"L. SANÉ\",47,\"normal\"],[\"T. WERNER\",54,\"normal\"],[\"K. ADEYEMI\",61,\"normal\"],[\"L. SANÉ\",67,\"normal\"],[\"K. ADEYEMI\",81,\"normal\"],[\"K. ADEYEMI\",87,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "second",
+        "second",
+        "second",
+        "second",
+        "second",
+        "second"
+      ],
+      "team_2": []
+    },
+    "715_ger_spain_3_1_11-11-2026": {
+      "input": "[[3,[[\"T. WERNER\",22,\"normal\"],[\"L. SANÉ\",29,\"normal\"],[\"S. GNABRY\",76,\"normal\"]]],[1,[[\"MORATA\",7,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "first",
+        "second"
+      ],
+      "team_2": [
+        "first"
+      ]
+    },
+    "716_ger_spain_3_2_11-11-2026": {
+      "input": "[[3,[[\"T. WERNER\",9,\"normal\"],[\"L. KLOSTERMANN\",21,\"normal\"],[\"L. KLOSTERMANN\",24,\"normal\"]]],[2,[[\"R. LE NORMAND\",29,\"normal\"],[\"Y. PINO\",54,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "first",
+        "first"
+      ],
+      "team_2": [
+        "first",
+        "second"
+      ]
+    },
+    "717_ger_spain_4_0_11-11-2026": {
+      "input": "[[4,[[\"S. GNABRY\",7,\"normal\"],[\"T. WERNER\",51,\"normal\"],[\"M. WEISER\",70,\"normal\"],[\"K. ADEYEMI\",94,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "first",
+        "second",
+        "second",
+        "second"
+      ],
+      "team_2": []
+    },
+    "718_ger_spain_1_2_11-11-2026": {
+      "input": "[[1,[[\"S. GNABRY\",77,\"normal\"]]],[2,[[\"N. WILLIAMS\",37,\"normal\"],[\"M. OYARZABAL\",81,\"normal\"]]]]",
+      "team_1": [
+        "second"
+      ],
+      "team_2": [
+        "first",
+        "second"
+      ]
+    },
+    "719_ger_spain_4_1_11-11-2026": {
+      "input": "[[4,[[\"L. SANÉ\",4,\"normal\"],[\"L. SANÉ\",33,\"normal\"],[\"K. ADEYEMI\",69,\"normal\"],[\"S. GNABRY\",85,\"normal\"]]],[1,[[\"Y. PINO\",18,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "first",
+        "second",
+        "second"
+      ],
+      "team_2": [
+        "first"
+      ]
+    },
+    "720_ger_spain_3_1_11-11-2026": {
+      "input": "[[3,[[\"J. MUSIALA\",26,\"normal\"],[\"M. WEISER\",87,\"normal\"]]],[1,[[\"MORATA\",39,\"normal\"],[\"Автогол\",12,\"own_goal\"]]]]",
+      "team_1": [
+        "first",
+        "second"
+      ],
+      "team_2": [
+        "first",
+        "first"
+      ]
     }
   }
 }
