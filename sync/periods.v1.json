@@ -1411,6 +1411,86 @@
         "first",
         "first"
       ]
+    },
+    "721_ger_spain_2_1_15-11-2026": {
+      "input": "[[2,[[\"F. WIRTZ\",78,\"normal\"],[\"N. FÜLLKRUG\",84,\"normal\"]]],[1,[[\"MORATA\",21,\"normal\"]]]]",
+      "team_1": [
+        "second",
+        "second"
+      ],
+      "team_2": [
+        "first"
+      ]
+    },
+    "722_ger_spain_2_4_15-11-2026": {
+      "input": "[[2,[[\"M. REUS\",15,\"normal\"],[\"K. BELLARABI\",49,\"normal\"]]],[4,[[\"MORATA\",20,\"normal\"],[\"N. WILLIAMS\",31,\"normal\"],[\"MORATA\",45,\"normal\"],[\"N. WILLIAMS\",61,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "second"
+      ],
+      "team_2": [
+        "first",
+        "first",
+        "first",
+        "second"
+      ]
+    },
+    "723_ger_spain_1_0_15-11-2026": {
+      "input": "[[1,[[\"J. KIMMICH\",85,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "second"
+      ],
+      "team_2": []
+    },
+    "724_ger_spain_1_1_15-11-2026": {
+      "input": "[[1,[[\"L. SANÉ\",74,\"normal\"]]],[1,[[\"D. OLMO\",56,\"normal\"]]]]",
+      "team_1": [
+        "second"
+      ],
+      "team_2": [
+        "second"
+      ]
+    },
+    "725_ger_spain_3_3_15-11-2026": {
+      "input": "[[3,[[\"L. SANÉ\",44,\"normal\"],[\"L. SANÉ\",79,\"normal\"],[\"L. SANÉ\",92,\"normal\"]]],[3,[[\"N. WILLIAMS\",10,\"normal\"],[\"F. RUIZ\",81,\"normal\"],[\"M. OYARZABAL\",84,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "second",
+        "second"
+      ],
+      "team_2": [
+        "first",
+        "second",
+        "second"
+      ]
+    },
+    "726_ger_spain_3_1_15-11-2026": {
+      "input": "[[3,[[\"L. SANÉ\",22,\"normal\"],[\"L. SANÉ\",34,\"normal\"],[\"N. FÜLLKRUG\",82,\"normal\"]]],[1,[[\"N. WILLIAMS\",33,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "first",
+        "second"
+      ],
+      "team_2": [
+        "first"
+      ]
+    },
+    "727_ger_spain_1_0_15-11-2026": {
+      "input": "[[1,[[\"T. WERNER\",55,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "second"
+      ],
+      "team_2": []
+    },
+    "728_ger_spain_2_1_15-11-2026": {
+      "input": "[[2,[[\"M. REUS\",47,\"normal\"],[\"S. GNABRY\",100,\"normal\"]]],[1,[[\"Y. PINO\",38,\"normal\"]]]]",
+      "team_1": [
+        "second",
+        "extra_first"
+      ],
+      "team_2": [
+        "first"
+      ]
     }
   }
 }
