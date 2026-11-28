@@ -1590,6 +1590,94 @@
       "team_2": [
         "second"
       ]
+    },
+    "738_ger_spain_4_2_28-11-2026": {
+      "input": "[[4,[[\"T. WERNER\",6,\"normal\"],[\"S. GNABRY\",52,\"normal\"],[\"L. SANÉ\",57,\"normal\"],[\"L. SANÉ\",81,\"normal\"]]],[2,[[\"MORATA\",23,\"normal\"],[\"M. OYARZABAL\",83,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "second",
+        "second",
+        "second"
+      ],
+      "team_2": [
+        "first",
+        "second"
+      ]
+    },
+    "739_ger_spain_2_1_28-11-2026": {
+      "input": "[[2,[[\"T. WERNER\",57,\"normal\"],[\"T. WERNER\",62,\"normal\"]]],[1,[[\"N. WILLIAMS\",84,\"normal\"]]]]",
+      "team_1": [
+        "second",
+        "second"
+      ],
+      "team_2": [
+        "second"
+      ]
+    },
+    "740_ger_spain_4_3_28-11-2026": {
+      "input": "[[4,[[\"T. WERNER\",45,\"normal\"],[\"T. WERNER\",49,\"normal\"],[\"L. SANÉ\",79,\"normal\"],[\"S. GNABRY\",120,\"normal\"]]],[3,[[\"M. OYARZABAL\",46,\"normal\"],[\"M. OYARZABAL\",69,\"normal\"],[\"PEDRI\",73,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "second",
+        "second",
+        "extra_second"
+      ],
+      "team_2": [
+        "first",
+        "second",
+        "second"
+      ]
+    },
+    "741_ger_spain_3_0_28-11-2026": {
+      "input": "[[3,[[\"L. SANÉ\",6,\"normal\"],[\"T. WERNER\",61,\"normal\"],[\"N. FÜLLKRUG\",82,\"normal\"]]],[0,[]]]",
+      "team_1": [
+        "first",
+        "second",
+        "second"
+      ],
+      "team_2": []
+    },
+    "742_ger_spain_3_2_28-11-2026": {
+      "input": "[[3,[[\"T. WERNER\",26,\"normal\"],[\"N. FÜLLKRUG\",92,\"normal\"],[\"N. FÜLLKRUG\",118,\"normal\"]]],[2,[[\"MORATA\",92,\"normal\"],[\"PEDRI\",112,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "extra_first",
+        "extra_second"
+      ],
+      "team_2": [
+        "second",
+        "extra_second"
+      ]
+    },
+    "743_ger_spain_3_2_28-11-2026": {
+      "input": "[[3,[[\"S. GNABRY\",12,\"normal\"],[\"T. WERNER\",30,\"normal\"],[\"N. FÜLLKRUG\",98,\"normal\"]]],[2,[[\"MORATA\",51,\"normal\"],[\"M. OYARZABAL\",88,\"normal\"]]]]",
+      "team_1": [
+        "first",
+        "first",
+        "extra_first"
+      ],
+      "team_2": [
+        "second",
+        "second"
+      ]
+    },
+    "744_ger_spain_1_1_28-11-2026": {
+      "input": "[[1,[[\"L. SANÉ\",117,\"normal\"]]],[1,[[\"N. WILLIAMS\",106,\"normal\"]]]]",
+      "team_1": [
+        "extra_second"
+      ],
+      "team_2": [
+        "extra_second"
+      ]
+    },
+    "745_ger_spain_1_1_28-11-2026": {
+      "input": "[[1,[[\"T. WERNER\",51,\"normal\"]]],[1,[[\"MORATA\",3,\"normal\"]]]]",
+      "team_1": [
+        "second"
+      ],
+      "team_2": [
+        "first"
+      ]
     }
   }
 }
